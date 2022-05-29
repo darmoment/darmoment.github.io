@@ -1,6 +1,7 @@
 div {
     background-color: whitesmoke;
-    margin-top: 5000px;
+    margin-top: 2000px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     color: yellow;
-    /*margin-bottom: 1000px;*/
 }
