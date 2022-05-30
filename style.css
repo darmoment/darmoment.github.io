@@ -4,12 +4,12 @@ nav {
     opacity: 90%;
     display: flex;
     align-content: row;
-    justify-content: end;
     border-radius: 25px;
 }
 
 span.navlinks {
     display: flex;
+    justify-content: end;
     align-content: row;
 }
 
