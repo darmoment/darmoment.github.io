@@ -1,3 +1,12 @@
+nav {
+    background-color: FFFFFF;
+    background-attachment: fixed;
+    opacity: 90%;
+    display: flex;
+    justify-content: end;
+    border-radius: 25px;
+}
+
 div {
     background-color: whitesmoke;
     margin-top: 2000px;
