@@ -1,7 +1,7 @@
 /* ---- reset ---- */
 
 canvas {
-display: block;
+display: flex;
 vertical-align: bottom;
 }
 
