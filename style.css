@@ -1,5 +1,10 @@
 /* ---- reset ---- */
 
+canvas {
+display: flex;
+vertical-align: bottom;
+}
+
 /* ---- particles.js container ---- */
 
 #particles-js {
