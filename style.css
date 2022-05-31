@@ -47,7 +47,7 @@ body {
   
   #stats,
   .count-particles{
-    -webkit-user-select: none;
+    user-select: none;
   }
   
   #stats{
