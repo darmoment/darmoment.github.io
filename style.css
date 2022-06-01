@@ -140,18 +140,18 @@ li #code_3{
 
 li #code_1-1{
     position: relative;
-    left: 0.6rem;
+    left: 0.5rem;
 }
 
 li #code_2-1{
     position: relative;
-    left: 1.6rem;
+    left: 1.5rem;
 }
 
 
 li #code_3-1{
     position: relative;
-    left: 2.6rem;
+    left: 2.5rem;
 }
 
 li:before { 
