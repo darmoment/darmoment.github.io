@@ -18,14 +18,25 @@ vertical-align: bottom;
     opacity: 50%;
 }
 
-#home {
+#about{
     position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+
+#code{
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    color: #FFF;
 }
 
 ol { 
     counter-reset: item;
     list-style-type: none;
 }
+
 li { display: block; }
 li:before { 
     content: counter(item) "  "; 
