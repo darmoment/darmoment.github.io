@@ -65,3 +65,9 @@ h4{
     font-weight: lighter;
     letter-spacing: .02rem;
 }
+
+button {
+    background-color: transparent;
+    border-color: #763FEC;
+    border-width: .02rem;
+}
