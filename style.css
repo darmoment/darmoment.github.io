@@ -70,6 +70,7 @@ button {
     background-color: transparent;
     border: .2rem solid #763FEC;
     font-size: 2rem;
+    font-weight: bold;
     color: #763FEC;
     margin-right: 8rem;
     margin-top: -1rem;
