@@ -108,7 +108,7 @@ button:hover {
     font-weight: lighter;
     padding-left: .001rem;
     border-radius: 2.2rem;
-    opacity: 90%;
+    opacity: 80%;
 }
 
 #code_highlight{
