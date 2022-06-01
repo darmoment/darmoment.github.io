@@ -79,6 +79,15 @@ button:hover {
     top: 59%;
 }
 
+#square_1{
+    background-color: #956CED;
+    width: 3.4rem;
+    height: 3.4rem;
+    position: absolute;
+    left: 84%;
+    top: 29%;
+}
+
 #code{
     position: absolute;
     top: 27%;
