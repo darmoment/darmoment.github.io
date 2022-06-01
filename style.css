@@ -10,16 +10,11 @@ height:100vh;
 /* ---- particles.js container ---- */
 
 #particles-js {
-    width:100%;
+    width:auto;
 	height:100%;
     opacity: 50%;
 }
 
 h1 {
     position: absolute;
-}
-
-html, body {
-    width: 100vw; 
-    height: 100vh;
 }
