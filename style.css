@@ -138,6 +138,22 @@ li #code_3{
     left: 3rem;
 }
 
+li #code_1-1{
+    position: relative;
+    left: 0.9rem;
+}
+
+li #code_2-1{
+    position: relative;
+    left: 1.9rem;
+}
+
+
+li #code_3-1{
+    position: relative;
+    left: 2.9rem;
+}
+
 li:before { 
     content: counter(item) "  "; 
     counter-increment: item 
