@@ -69,7 +69,7 @@ h4{
 button {
     background-color: transparent;
     border-color: #763FEC;
-    border-style: none;
+    border-style: initial;
     border-width: .2rem;
     font-size: 2.2rem;
     color: #E9E9E9;
