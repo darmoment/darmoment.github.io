@@ -18,6 +18,16 @@ vertical-align: bottom;
     opacity: 50%;
 }
 
-h1 {
+#home {
     position: absolute;
+}
+
+ol { 
+    counter-reset: item;
+    list-style-type: none;
+}
+li { display: block; }
+li:before { 
+    content: counter(item) "  "; 
+    counter-increment: item 
 }
