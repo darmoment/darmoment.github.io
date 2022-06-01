@@ -54,6 +54,11 @@ li #code_2{
     left: 2rem;
 }
 
+li #code_3{
+    position: relative;
+    left: 3rem;
+}
+
 li:before { 
     content: counter(item) "  "; 
     counter-increment: item 
