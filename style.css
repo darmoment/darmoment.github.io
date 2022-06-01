@@ -1,4 +1,9 @@
-/* ---- reset ---- */
+html, body {
+    background: #232323;
+    background-attachment: fixed;
+    width: auto; 
+    height: 100vh;
+}
 
 canvas {
 display: flex;
@@ -16,8 +21,6 @@ vertical-align: bottom;
 h1 {
     position: absolute;
 }
-
-
 
 ol { 
     counter-reset: item;
