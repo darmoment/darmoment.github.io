@@ -3,8 +3,6 @@
 canvas {
 display: flex;
 vertical-align: bottom;
-width:100vw;
-height:100vh;
 }
 
 /* ---- particles.js container ---- */
