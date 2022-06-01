@@ -44,6 +44,11 @@ li {
     display: block; 
 }
 
+li span{
+    position: relative;
+    left: -10px;
+}
+
 li:before { 
     content: counter(item) "  "; 
     counter-increment: item 
