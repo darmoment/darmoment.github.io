@@ -40,7 +40,6 @@ ol {
 
 li { display: block; }
 li:before { 
-    content: counter(item) "  "; 
     counter-increment: item 
 }
 
