@@ -43,3 +43,7 @@ li:before {
     content: counter(item) "  "; 
     counter-increment: item 
 }
+
+span{
+    color: #763FEC;
+}
