@@ -46,7 +46,7 @@ li {
 
 li #code_1{
     position: relative;
-    left: -10px;
+    left: 1rem;
 }
 
 li:before { 
