@@ -20,7 +20,7 @@ vertical-align: bottom;
 
 #about{
     position: absolute;
-    top: 20%;
+    top: 16%;
     left: 6%;
     color: #E9E9E9;
     width: 47rem;
@@ -29,7 +29,7 @@ vertical-align: bottom;
 
 #code{
     position: absolute;
-    top: 35%;
+    top: 20%;
     left: 67%;
     color: #763FEC;
     background-color: #E9E9E9;
