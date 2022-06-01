@@ -38,9 +38,13 @@ vertical-align: bottom;
 ol { 
     counter-reset: item;
     list-style-type: none;
+    padding-left: 1rem;
 }
 
-li { display: block; }
+li { 
+    display: block; 
+    padding-left: 1rem;
+}
 li:before { 
     content: counter(item) "  "; 
     counter-increment: item 
