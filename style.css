@@ -54,7 +54,7 @@ li:before {
     counter-increment: item 
 }
 
-span{
+.highlight{
     color: #763FEC;
 }
 
