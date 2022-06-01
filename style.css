@@ -19,7 +19,9 @@ h1 {
     position: absolute;
 }
 
-html{
+html, body {
+    background: #232323;
+    background-attachment: fixed;
     width: auto; 
     height: 100vh;
 }
