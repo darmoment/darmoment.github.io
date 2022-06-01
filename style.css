@@ -20,6 +20,6 @@ h1 {
 }
 
 html, body {
-    width: 100vw; 
+    width: auto; 
     height: 100vh;
 }
