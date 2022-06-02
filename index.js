@@ -122,7 +122,7 @@ particlesJS("particles-js2", {
         "value": "#3F65EC"
       },
       "shape": {
-        "type": "square",
+        "type": "edge",
         "stroke": {
           "width": 0,
           "color": "#3F65EC"
