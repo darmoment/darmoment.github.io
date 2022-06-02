@@ -132,7 +132,7 @@ particlesJS("particles-js2", {
         },
       },
       "opacity": {
-        "value": 100,
+        "value": 10,
         "random": false,
         "anim": {
           "enable": false,
