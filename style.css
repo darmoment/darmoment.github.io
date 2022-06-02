@@ -169,8 +169,17 @@ li:before {
 /* ---- Navbar ---- */
 
 nav {
+    overflow: hidden;
     background-color: white;
     opacity: 80%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
     width: 100%;
-    position: static;
+}
+
+.sticky + .content {
+    padding-top: 60px;
 }
