@@ -13,6 +13,7 @@ vertical-align: bottom;
 canvas2 {
     display: flex;
     vertical-align: bottom;
+    position:static;
 }
 
 /* ---- particles.js container ---- */
