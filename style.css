@@ -170,7 +170,7 @@ li:before {
 
 #nav {
     overflow: hidden;
-    background-color: white;
+    /*background-color: white;*/
     opacity: 80%;
 }
 
