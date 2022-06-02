@@ -2,7 +2,7 @@ html, body {
     background: #232323;
     background-attachment: fixed;
     width: auto; 
-    height: 100vh;
+    height: auto;
 }
 
 canvas {
@@ -14,7 +14,6 @@ canvas2 {
     display: flex;
     vertical-align: bottom;
     position: static;
-    height: auto;
 }
 
 /* ---- particles.js container ---- */
