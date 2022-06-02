@@ -19,6 +19,7 @@ vertical-align: bottom;
 
 #particles-js2 {
     width: 100%;
+    height: auto;
     z-index: -10;
     position: static;
 }
