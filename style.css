@@ -6,15 +6,13 @@ html, body {
 }
 
 canvas {
-display: flex;
-vertical-align: bottom;
+    display: flex;
+    vertical-align: bottom;
 }
 
 canvas2 {
     display: flex;
     vertical-align: bottom;
-    position:static;
-    z-index: -10;
 }
 
 /* ---- particles.js container ---- */
@@ -195,5 +193,4 @@ li:before {
 #test {
     position: absolute;
     top: 100%;
-    padding-top: 100rem;
 }
