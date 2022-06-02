@@ -165,3 +165,9 @@ li:before {
     counter-increment: item 
 }
 
+/* ---- Navbar ---- */
+
+nav {
+    background-color: white;
+    opacity: 80%;
+}
