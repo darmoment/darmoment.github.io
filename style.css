@@ -2,7 +2,7 @@ html, body {
     background: #232323;
     background-attachment: fixed;
     width: auto; 
-    /*height: 100vh;*/
+    height: 100vh;
 }
 
 canvas {
