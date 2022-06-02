@@ -172,6 +172,7 @@ li:before {
     overflow: hidden;
     background-color: white;
     opacity: 80%;
+    position: absolute;
 }
 
 .sticky {
