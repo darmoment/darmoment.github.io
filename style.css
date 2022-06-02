@@ -171,4 +171,5 @@ li:before {
 nav {
     background-color: white;
     opacity: 80%;
+    position: static;
 }
