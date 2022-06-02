@@ -174,7 +174,7 @@ particlesJS("particles-js2", {
       }
     },
     "interactivity": {
-      "detect_on": "canvas",
+      "detect_on": "canvas2",
       "events": {
         "onhover": {
           "enable": false,

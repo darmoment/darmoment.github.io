@@ -10,6 +10,12 @@ display: flex;
 vertical-align: bottom;
 }
 
+canvas2 {
+    display: flex;
+    vertical-align: bottom;
+    position: static;
+}
+
 /* ---- particles.js container ---- */
 
 #particles-js {
@@ -19,9 +25,8 @@ vertical-align: bottom;
 
 #particles-js2 {
     width: 100%;
-    height: auto;
+    height: 100%;
     z-index: -10;
-    position: static;
 }
 
 /* ---- About ---- */
