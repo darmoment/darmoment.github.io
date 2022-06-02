@@ -109,7 +109,7 @@ particlesJS("particles-js", {
 
 /* ---- particles.js2 config ---- */
 
-particlesJS2("particles-js2", {
+particlesJS("particles-js2", {
     "particles": {
       "number": {
         "value": 200,
