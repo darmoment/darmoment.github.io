@@ -168,7 +168,7 @@ li:before {
 
 /* ---- Navbar ---- */
 
-nav {
+#nav {
     overflow: hidden;
     background-color: white;
     opacity: 80%;
