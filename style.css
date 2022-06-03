@@ -185,7 +185,7 @@ li:before {
 
 a {
    display: flex;
-   align-content: row;
+   align-content: column;
    padding-right: 2rem;
    padding-top: .7rem;
    padding-bottom: .5rem;
