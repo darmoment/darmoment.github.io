@@ -184,6 +184,11 @@ li:before {
     width: 100%;
 }
 
+#navlinks {
+    display: flex;
+    justify-content: space-between;
+}
+
 a {
    padding-right: 2rem;
    padding-top: .7rem;
@@ -219,9 +224,4 @@ a:hover::after {
 
 .sticky + .content {
     padding-top: 60px;
-}
-
-#test {
-    position: absolute;
-    margin-top: 20rem;
 }
