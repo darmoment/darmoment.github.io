@@ -193,6 +193,7 @@ li:before {
 }
 
 a {
+    display: inline;
    padding-right: 2rem;
    padding-top: .7rem;
    padding-bottom: .5rem;
