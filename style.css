@@ -183,6 +183,7 @@ li:before {
 
 a {
    padding-right: 2rem;
+   padding-top: 1rem;
    font-size: 1.3rem;
    font-weight: bold;
 }
