@@ -198,11 +198,10 @@ a:link, a:visited {
 
 a::after {
     content: '';
-  width: 0px;
-  height: 1px;
-  display: block;
-  background: #763FEC;
-  transition: 300ms;
+    height: .2rem;
+    display: block;
+    background: #763FEC;
+    transition: 300ms;
 }
 
 a:hover::after {
