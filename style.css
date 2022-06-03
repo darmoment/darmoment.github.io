@@ -196,6 +196,7 @@ li:before {
 
 #emblem::before, #emblem::after {
     content: attr(title);
+    padding: 50px;
     color: black;
     position: absolute;
 }
