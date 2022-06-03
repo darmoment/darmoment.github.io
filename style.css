@@ -181,11 +181,6 @@ li:before {
     justify-content: right;
 }
 
-#navitems {
-    display: flex;
-    justify-content: space-between;
-}
-
 .sticky {
     position: fixed;
     top: 0;
