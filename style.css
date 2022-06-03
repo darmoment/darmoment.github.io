@@ -203,6 +203,7 @@ a::after {
     display: block;
     background: #763FEC;
     transition: 300ms;
+    padding-top: .1rem;
 }
 
 a:hover::after {
