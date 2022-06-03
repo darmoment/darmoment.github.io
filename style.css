@@ -192,7 +192,11 @@ a {
    color: black;
 }
 
-a:link a:visited {
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
     text-decoration: none;
 }
   
@@ -201,7 +205,7 @@ a:hover {
 }
   
 a:active {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .sticky {
