@@ -181,11 +181,10 @@ li:before {
     display: flex;
     justify-content: right;
     box-shadow: .2rem .2rem .2rem;
-    position: sticky;
 }
 
 #emblem {
-    margin-right: rem;
+    margin-right: 50rem;
 }
 
 a {
