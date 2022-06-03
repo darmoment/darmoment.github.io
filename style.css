@@ -1,8 +1,9 @@
 html, body {
     background: #232323;
     background-attachment: fixed;
-    width: 100%; 
+    width: auto; 
     height: 100vh;
+    margin: 0;
 }
 
 canvas {
