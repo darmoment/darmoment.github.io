@@ -181,6 +181,7 @@ li:before {
     display: inline-flex;
     justify-content: space-between;
     box-shadow: .2rem .2rem .2rem;
+    width: 100%;
 }
 
 a {
