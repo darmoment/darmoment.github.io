@@ -183,14 +183,6 @@ li:before {
     box-shadow: .2rem .2rem .2rem;
 }
 
-#emblem {
-    float:left;
-}
-
-#links {
-    float:right;
-}
-
 a {
    padding-right: 2rem;
    padding-top: .7rem;
