@@ -188,9 +188,9 @@ li:before {
     padding-left: 1rem;
     font-weight: bold;
     font-size: 1.4rem;
-    padding-top: 0rem;
+    padding-top: .2rem;
     padding-bottom: 0rem;
-    margin-top: 0rem;
+    margin: 0rem;
 }
 
 #navlinks {
