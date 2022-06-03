@@ -191,6 +191,6 @@ li:before {
 }
 
 #test {
-    /*position: absolute;*/
+    position: absolute;
     /*top: 120%;*/
 }
