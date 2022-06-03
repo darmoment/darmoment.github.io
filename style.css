@@ -182,7 +182,7 @@ li:before {
 }
 
 a {
-   width: 7rem;
+   padding-right: 2rem;
 }
 
 .sticky {
