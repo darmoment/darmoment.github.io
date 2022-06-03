@@ -200,8 +200,14 @@ li:before {
     position: absolute;
 }
 
-#emblem:before { top: 1px; left: 1px; }
-#emblem:after  { top: 2px; left: 2px; }
+#emblem:before { 
+    top: 1px; 
+    left: 1px; 
+}
+#emblem:after  { 
+    top: 2px; 
+    left: 2px; 
+}
 
 #navlinks {
     display: flex;
