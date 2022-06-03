@@ -189,6 +189,7 @@ li:before {
 
 #links {
     float:right;
+    display: inline;
 }
 
 a {
