@@ -194,7 +194,7 @@ li:before {
     letter-spacing: .09rem;
 }
 
-#emblem:before, #emblem:after {
+#emblem::before, #emblem::after {
     content: attr(title);
     color: black;
     position: absolute;
