@@ -182,11 +182,10 @@ li:before {
     justify-content: space-between;
     box-shadow: .2rem .2rem .2rem;
     width: 100%;
-    padding-left: 2rem;
-    padding-right: 2rem;
 }
 
 #emblem {
+    padding-left: 2rem;
 
 }
 
