@@ -194,6 +194,14 @@ li:before {
     letter-spacing: .09rem;
 }
 
+#emblem:before, #emblem:after {
+    content: attr(title);
+    color: rgba(255,255,255,.1);
+    position: absolute;
+}
+#emblem:before { top: 1px; left: 1px }
+#emblem:after  { top: 2px; left: 2px }
+
 #navlinks {
     display: flex;
     justify-content: space-between;
