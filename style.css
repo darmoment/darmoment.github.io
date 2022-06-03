@@ -197,9 +197,12 @@ a:link, a:visited {
 }
 
 a::after {
-    transition: 0.5s;
-    text-decoration: .3rem underline #763FEC;
-    text-underline-offset: .15rem;
+    content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: #763FEC;
+  transition: 300ms;
 }
 
 a:hover::after {
