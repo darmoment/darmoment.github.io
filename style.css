@@ -181,7 +181,6 @@ li:before {
     display: flex;
     justify-content: space-between;
     box-shadow: .2rem .2rem .2rem;
-    display: inline;
 }
 
 #emblem {
@@ -190,6 +189,8 @@ li:before {
 
 #links {
     float:right;
+    display: inline;
+    list-style-type: square;
 }
 
 a {
