@@ -179,12 +179,8 @@ li:before {
     opacity: 80%;
     color: black;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     box-shadow: .2rem .2rem .2rem;
-}
-
-#emblem {
-    position:relative;
 }
 
 a {
