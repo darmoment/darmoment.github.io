@@ -194,14 +194,14 @@ li:before {
     letter-spacing: .09rem;
 }
 
-p:before, p:after {
+#emblem:before, #emblem:after {
     content: attr(title);
     color: black;
     position: absolute;
 }
 
-p:before { top: 1px; left: 1px }
-p:after  { top: 2px; left: 2px }
+#emblem:before { top: 1px; left: 1px; }
+#emblem:after  { top: 2px; left: 2px; }
 
 #navlinks {
     display: flex;
