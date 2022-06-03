@@ -186,7 +186,8 @@ li:before {
 
 #emblem {
     padding-left: 1rem;
-
+    font-weight: bold;
+    font-size: 1.4rem;
 }
 
 #navlinks {
