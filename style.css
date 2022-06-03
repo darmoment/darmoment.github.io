@@ -201,8 +201,7 @@ a:visited {
 }
   
 a:hover {
-    text-decoration: underline #763FEC;
-    text-decoration: 2px;
+    text-decoration: 2px underline #763FEC;
 }
   
 a:active {
