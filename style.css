@@ -186,7 +186,7 @@ li:before {
 a {
    padding-right: 2rem;
    padding-top: .7rem;
-   padding-bottom: .6rem;
+   padding-bottom: .5rem;
    font-size: 1.2rem;
    font-weight: bold;
    color: black;
@@ -204,8 +204,6 @@ a::after {
     background: #763FEC;
     transition: 300ms;
     margin-top: .1rem;
-    margin-bottom: 0rem;
-    padding-bottom: 0rem;
 }
 
 a:hover::after {
