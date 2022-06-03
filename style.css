@@ -189,11 +189,11 @@ li:before {
 
 #links {
     float:right;
-    display: inline;
-    list-style-type: square;
 }
 
 a {
+    display: inline;
+    list-style-type: square;
    padding-right: 2rem;
    padding-top: .7rem;
    padding-bottom: .5rem;
