@@ -179,6 +179,7 @@ li:before {
     color: black;
     display: flex;
     justify-content: right;
+    box-shadow: #232323;
 }
 
 a {
