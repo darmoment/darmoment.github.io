@@ -201,7 +201,7 @@ a:hover {
 }
   
 a:active {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .sticky {
