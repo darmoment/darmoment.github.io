@@ -184,7 +184,7 @@ li:before {
 }
 
 #emblem {
-    margin-right: 50rem;
+    position:relative;
 }
 
 a {
