@@ -196,15 +196,14 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-a:hover {
+a::after {
     transition: 0.5s;
     text-decoration: .3rem underline #763FEC;
     text-underline-offset: .15rem;
 }
-  
-a:active {
-    text-decoration: .3rem underline #763FEC;
-    transition: 0.5s;
+
+a:hover::after {
+    width: 100%;
 }
 
 .sticky {
