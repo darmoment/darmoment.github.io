@@ -181,6 +181,10 @@ li:before {
     justify-content: right;
 }
 
+a {
+    padding: 2rem;
+}
+
 .sticky {
     position: fixed;
     top: 0;
