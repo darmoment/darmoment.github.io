@@ -206,7 +206,8 @@ a:hover {
 }
   
 a:active {
-    text-decoration: underline;
+    text-decoration: .3rem underline #763FEC;
+    transition: 0.5s;
 }
 
 .sticky {
