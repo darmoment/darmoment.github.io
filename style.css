@@ -200,11 +200,11 @@ li:before {
     position: absolute;
 }
 
-#emblem:before { 
+#emblem::before { 
     top: 1px; 
     left: 1px; 
 }
-#emblem:after  { 
+#emblem::after  { 
     top: 2px; 
     left: 2px; 
 }
