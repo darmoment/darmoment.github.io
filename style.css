@@ -203,6 +203,7 @@ a:visited {
 a:hover {
     transition: 0.5s;
     text-decoration: .3rem underline #763FEC;
+    text-underline-offset: .1rem;
 }
   
 a:active {
