@@ -188,8 +188,8 @@ li:before {
     padding-left: 1rem;
     font-weight: bold;
     font-size: 1.4rem;
-    padding-top: .7rem;
-    padding-bottom: .5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
 }
 
 #navlinks {
