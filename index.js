@@ -215,6 +215,7 @@ particlesJS("particles-js2", {
     "retina_detect": true
 });
 
+/*
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function() {myFunction()};
 
@@ -232,3 +233,4 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+*/
