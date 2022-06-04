@@ -241,3 +241,7 @@ a:hover::after {
 ul{
     list-style-type: none; 
 }
+
+#course{
+    content: " ";
+}
