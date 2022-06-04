@@ -235,3 +235,9 @@ a:hover::after {
 .sticky + .content {
     padding-top: 60px;
 }
+
+/* ---- Skills ---- */
+
+ul{
+    list-style-type: none; 
+}
