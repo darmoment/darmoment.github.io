@@ -227,13 +227,13 @@ a:hover::after {
 }
 
 .sticky {
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
 }
 
 .sticky + .content {
-    /*padding-top: 60px;*/
+    padding-top: 60px;
 }
 
 /* ---- Skills ---- */
