@@ -212,6 +212,10 @@ a:link, a:visited {
     text-decoration: none;
 }
 
+a:active {
+    color: #763FEC;
+}
+
 a::after {
     content: '';
     width: 0rem;
