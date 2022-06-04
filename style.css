@@ -133,41 +133,41 @@ ol {
     list-style-type: none;
 }
 
-li { 
+#code { 
     display: block; 
 }
 
-li #code_1{
+#code #code_1{
     position: relative;
     left: 1rem;
 }
 
-li #code_2{
+#code #code_2{
     position: relative;
     left: 2rem;
 }
 
-li #code_3{
+#code #code_3{
     position: relative;
     left: 3rem;
 }
 
-li #code_1-1{
+#code #code_1-1{
     position: relative;
     left: 0.4rem;
 }
 
-li #code_2-1{
+#code #code_2-1{
     position: relative;
     left: 1.4rem;
 }
 
-li #code_3-1{
+#code #code_3-1{
     position: relative;
     left: 2.4rem;
 }
 
-li:before { 
+#code:before { 
     content: counter(item) "  "; 
     counter-increment: item 
 }
