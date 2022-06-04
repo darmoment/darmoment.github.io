@@ -237,11 +237,3 @@ a:hover::after {
 }
 
 /* ---- Skills ---- */
-
-ul{
-    list-style-type: none; 
-}
-
-#course{
-    content: "  "; 
-}
