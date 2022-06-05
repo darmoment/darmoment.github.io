@@ -237,7 +237,7 @@ a:hover::after {
 
 
 #nav.sticky {
-    animation: slideDown 30ms;
+    animation: slideDown 0ms;
 }
 
 @keyframes slideDown {
