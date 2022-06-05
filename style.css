@@ -237,6 +237,10 @@ a:hover::after {
     width: 100%;
 }
 
+#nav.sticky {
+    animation: slideDown .5s;
+  }
+
 
 .sticky + #particles-js2 {
     padding-top: 4px;
