@@ -240,6 +240,6 @@ a:hover::after {
 /* ---- Skills ---- */
 
 #skills{
-    /*position: absolute;*/
+    position: absolute;
     top: 110%;
 }
