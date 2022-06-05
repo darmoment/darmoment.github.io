@@ -174,7 +174,7 @@ li:before {
 
 /* ---- Navbar ---- */
 
-.nav-wrapper .nav {
+.nav-wrapper, .nav {
     height: 80px;
     background: #333;
     padding: 0 40px;
@@ -182,7 +182,7 @@ li:before {
     color: #FFF;
 }
 
-.nav-wrapper .nav.sticky {
+.nav-wrapper, .nav.sticky {
     position: fixed;
     z-index: 10000;
     top: 0;
