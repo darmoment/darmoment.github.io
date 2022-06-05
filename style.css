@@ -175,8 +175,6 @@ li:before {
 /* ---- Navbar ---- */
 
 #nav {
-    position: sticky;
-    position: -webkit-sticky;
     top: 0;
     background-color: white;
     opacity: 80%;
