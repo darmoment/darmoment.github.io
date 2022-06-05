@@ -218,8 +218,8 @@ particlesJS("particles-js2", {
 
 $(window).scroll(function(){
   if($(this).scrollTop() > 100){
-      $('.nav').addClass('sticky')
+      $('#nav').addClass('sticky')
   } else{
-      $('.nav').removeClass('sticky')
+      $('#nav').removeClass('sticky')
   }
 });
