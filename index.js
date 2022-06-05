@@ -215,7 +215,7 @@ particlesJS("particles-js2", {
     "retina_detect": true
 });
 
-
+/*
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("nav");
@@ -228,3 +228,4 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+*/
