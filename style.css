@@ -235,12 +235,6 @@ a:hover::after {
     width: 100%;
 }
 
-
-#nav.sticky {
-    position: fixed;
-}
-
-
 .sticky + #particles-js2 {
     padding-top: 4px;
 }
