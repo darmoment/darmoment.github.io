@@ -241,7 +241,7 @@ a:hover::after {
 }
 
 @keyframes slideDown {
-    100% {
+    0% {
       transform: translateY(-100px);
     } 
 }
