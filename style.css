@@ -233,7 +233,7 @@ a:hover::after {
 }
 
 
-.sticky + #particles-js2 {
+.particles-js + #particles-js2 {
     padding-top: 100rem;
 }
 
