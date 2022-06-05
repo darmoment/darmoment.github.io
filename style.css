@@ -235,7 +235,6 @@ a:hover::after {
 
 
 .sticky + #particles-js2 {
-    transition: 300ms;
     padding-top: 4px;
 }
 
