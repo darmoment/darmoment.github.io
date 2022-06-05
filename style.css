@@ -234,7 +234,7 @@ a:hover::after {
 
 
 .sticky + #test {
-    padding-top: 3rem;
+    padding-top: 4rem;
 }
 
 /* ---- Skills ---- */
