@@ -174,25 +174,21 @@ li:before {
 
 /* ---- Navbar ---- */
 
-#nav {
-    background-color: white;
-    opacity: 80%;
-    color: black;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: .2rem .2rem .2rem;
-    width: 100%;
-    z-index: 500;
+.nav-wrapper .nav {
+    height: 80px;
+    background: #333;
+    padding: 0 40px;
+    line-height: 80px;
+    color: #FFF;
 }
 
-.nav-wrapper {
+.nav-wrapper .nav.sticky {
     position: fixed;
-    z-index: 500;
+    z-index: 10000;
     top: 0;
     left: 0;
     right: 0;
 }
-
 #emblem {
     padding-left: 1rem;
     font-weight: bold;
@@ -233,17 +229,6 @@ a::after {
 
 a:hover::after {
     width: 100%;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-
-.sticky + #particles-js2 {
-    padding-top: 45px;
 }
 
 /* ---- Skills ---- */
