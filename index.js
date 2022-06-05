@@ -223,6 +223,7 @@ var sticky = navbar.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
+    navbar.style.removeProperty('position');
     navbar.classList.add("sticky")
   } else {
     navbar.classList.remove("sticky");
