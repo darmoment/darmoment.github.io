@@ -232,6 +232,10 @@ a:hover::after {
     width: 100%;
 }
 
+.content {
+    padding: 16px;
+}
+
 .sticky + .content {
     padding-top: 60px;
 }
