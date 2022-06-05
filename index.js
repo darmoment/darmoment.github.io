@@ -216,10 +216,15 @@ particlesJS("particles-js2", {
 });
 
 
-$(window).scroll(function(){
-  if($(this).scrollTop() > 100){
-      $('#nav').addClass('sticky')
-  } else{
-      $('#nav').removeClass('sticky')
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("nav");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
   }
-});
+}
