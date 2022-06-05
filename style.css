@@ -232,11 +232,7 @@ a:hover::after {
     width: 100%;
 }
 
-.content {
-    padding: 16px;
-}
-
-.sticky + .content {
+.sticky + #test {
     padding-top: 60px;
 }
 
