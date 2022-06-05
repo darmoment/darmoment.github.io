@@ -240,6 +240,11 @@ a:hover::after {
     animation: slideDown .5s;
 }
 
+@keyframes slideDown {
+    0% {
+      transform: translateY(-100px);
+    } 
+}
 
 .sticky + #particles-js2 {
     padding-top: 4px;
