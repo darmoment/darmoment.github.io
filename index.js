@@ -217,7 +217,7 @@ particlesJS("particles-js2", {
 
 window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("nav-wrapper");
+var navbar = document.getElementById("nav");
 var sticky = navbar.offsetTop;
 
 function myFunction() {
