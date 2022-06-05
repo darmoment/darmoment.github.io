@@ -237,12 +237,12 @@ a:hover::after {
 
 
 #nav.sticky {
-    animation: slideDown .5s;
+    animation: slideDown 0s;
 }
 
 @keyframes slideDown {
     0% {
-      transform: translateY(-100px);
+      transform: translateY(0px);
     } 
 }
 
