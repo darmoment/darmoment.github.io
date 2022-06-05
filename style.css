@@ -183,7 +183,8 @@ li:before {
     box-shadow: .2rem .2rem .2rem;
     width: 100%;
     z-index: 500;
-    position: relative;
+    position: sticky;
+    top: 0;
 }
 
 #emblem {
