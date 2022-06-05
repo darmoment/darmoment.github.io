@@ -232,13 +232,13 @@ a:hover::after {
     width: 100%;
 }
 
-.sticky + #test {
+.sticky + #skills {
     padding-top: 60px;
 }
 
 /* ---- Skills ---- */
 
 #skills{
-    /*position: absolute;*/
+    position: absolute;
     top: 110%;
 }
