@@ -183,7 +183,6 @@ li:before {
     box-shadow: .2rem .2rem .2rem;
     width: 100%;
     z-index: 500;
-    overflow: hidden;
 }
 
 #emblem {
@@ -244,8 +243,4 @@ a:hover::after {
 #skills{
     position: absolute;
     top: 110%;
-}
-
-#test{
-    padding: 100rem;
 }
