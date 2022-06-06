@@ -204,7 +204,7 @@ li:before {
     justify-content: space-between;
 }
 
-a {
+#nav a {
    float: left;
    padding-right: 2rem;
    padding-top: .7rem;
