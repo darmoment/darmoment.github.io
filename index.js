@@ -226,7 +226,7 @@ window.addEventListener('scroll', function(e){
   var stickyLine = header.scrollHeight - stickyNav.scrollHeight;
   if(scrollPos > stickyLine){
     document.getElementById("nav").style.transition = "300ms";
-    document.getElementById("nav").style.opacity = "80%";
+    document.getElementById("nav").style.opacity = "50%";
   }else if(scrollPos <= stickyLine){
     document.getElementById("nav").style.transition = "300ms";
     document.getElementById("nav").style.opacity = "0%";
