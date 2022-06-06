@@ -226,7 +226,7 @@ function scrollFunction() {
   var stickyLine = header.scrollHeight;
   if (scrollPos > stickyLine) {
     document.getElementById("nav").style.opacity = "80%";
-  } else if (scrollPos <= stickyLine){
+  } else {
     document.getElementById("nav").style.opacity = "0%";
   }
 }
