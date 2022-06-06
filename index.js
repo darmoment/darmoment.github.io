@@ -215,17 +215,16 @@ particlesJS("particles-js2", {
     "retina_detect": true
 });
 
-/*
-window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("nav");
-var sticky = navbar.offsetTop;
+let navbar = document.getElementById("nav");
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+let navPos = navbar.getBoundingClientRect().top;
+
+window.addEventListener("scroll", e => {
+  let scrollPos = window.scrollY;
+  if (scrollPos > navPos) {
+    navbar.classList.add('sticky');
   } else {
-    navbar.classList.remove("sticky");
+    navbar.classList.remove('sticky');
   }
-}
-*/
+});

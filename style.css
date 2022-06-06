@@ -175,7 +175,7 @@ li:before {
 /* ---- Navbar ---- */
 
 #nav {
-    top: 0rem;
+    top: 0;
     background-color: white;
     opacity: 80%;
     color: black;
@@ -184,7 +184,6 @@ li:before {
     box-shadow: .2rem .2rem .2rem;
     width: 100%;
     z-index: 500;
-    position: fixed;
 }
 
 #emblem {
