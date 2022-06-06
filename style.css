@@ -236,6 +236,7 @@ a:hover::after {
     left: 0;
     width: 100%;
     transition: 500ms;
+    transform: translate3d(0, 0, 0);
     opacity: 80%;
 }
 
