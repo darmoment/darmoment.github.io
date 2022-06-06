@@ -189,6 +189,7 @@ li:before {
 }
 
 #emblem {
+    float: right;
     padding-left: 1rem;
     font-weight: bold;
     font-size: 1.4rem;
