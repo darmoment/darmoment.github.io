@@ -216,7 +216,7 @@ particlesJS("particles-js2", {
 });
 
 
-var header = document.querySelector("particles-js2");
+var header = document.querySelector("#particles-js2");
 var stickyNav = document.querySelector("#nav");
 
 window.onscroll = function() {scrollFunction()};
