@@ -175,7 +175,7 @@ li:before {
 /* ---- Navbar ---- */
 
 #nav {
-    transition: 500ms;
+    transition: 500ms ease;
     top: 0;
     background-color: white;
     opacity: 0%;
@@ -222,7 +222,7 @@ a::after {
     height: .2rem;
     display: block;
     background: #763FEC;
-    transition: 300ms;
+    transition: 300ms ease;
     margin-top: .1rem;
 }
 
