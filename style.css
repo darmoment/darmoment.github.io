@@ -233,11 +233,10 @@ a:hover::after {
     top: 0;
     left: 0;
     width: 100%;
-    padding-top: 6px;
 }
 
 .sticky + #particles-js2 {
-    padding-top: 6px;
+    padding-top: 6rem;
 }
 
 /* ---- Skills ---- */
