@@ -216,7 +216,7 @@ particlesJS("particles-js2", {
 });
 
 
-var header = document.querySelector("header");
+var header = document.querySelector("particles-js");
 var stickyNav = document.querySelector("#nav");
 
 // TODO: throttle this function for optimal performance in production
