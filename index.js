@@ -112,7 +112,7 @@ particlesJS("particles-js", {
 particlesJS("particles-js2", {
     "particles": {
       "number": {
-        "value": 40,
+        "value": 60,
         "density": {
           "enable": true,
           "value_area": 800
@@ -142,7 +142,7 @@ particlesJS("particles-js2", {
         }
       },
       "size": {
-        "value": 2,
+        "value": 3,
         "random": true,
         "anim": {
           "enable": false,
@@ -160,7 +160,7 @@ particlesJS("particles-js2", {
       },
       "move": {
         "enable": true,
-        "speed": 2,
+        "speed": 3,
         "direction": "none",
         "random": false,
         "straight": false,
@@ -216,16 +216,16 @@ particlesJS("particles-js2", {
 });
 
 
-window.onscroll = function() {myFunction()};
+var header = document.querySelector("particles-js2");
+var stickyNav = document.querySelector("#nav");
 
-var navbar = document.getElementById("nav");
-var sticky = navbar.offsetTop;
-
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
+// TODO: throttle this function for optimal performance in production
+window.addEventListener('scroll', function(e){
+  var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
+  var stickyLine = header.scrollHeight;
+  if(scrollPos > stickyLine){
+    document.getElementById("#nav").style.opacity = "80%";
+  }else{
+    document.getElementById("#nav").style.opacity = "0%";
   }
-}
+});
