@@ -180,8 +180,8 @@ div#nav {
     background-color: white;
     opacity: 80%;
     color: black;
-    display: flex;
-    justify-content: space-between;
+    /*display: flex;
+    justify-content: space-between;*/
     box-shadow: .2rem .2rem .2rem;
     width: 100%;
     height: 2.9rem;
