@@ -218,13 +218,17 @@ particlesJS("particles-js2", {
 
 window.onscroll = function() {myFunction()};
 
+var space = document.getElementById("particles-js2");
 var navbar = document.getElementById("nav");
 var sticky = navbar.offsetTop;
 
+
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+    space.classList.add("navSpace");
+    navbar.classList.add("sticky");
   } else {
     navbar.classList.remove("sticky");
+    space.classList.remove("navSpace");
   }
 }

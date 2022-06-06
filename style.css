@@ -236,7 +236,7 @@ a:hover::after {
     width: 100%;
 }
 
-#nav.sticky + #particles-js2 {
+.navSpace {
     padding-top: 2.9rem;
 }
 
