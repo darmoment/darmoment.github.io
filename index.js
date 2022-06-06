@@ -216,19 +216,16 @@ particlesJS("particles-js2", {
 });
 
 
-window.onscroll = function() {myFunction()};
+var header = document.querySelector("header");
+var stickyNav = document.querySelector("#nav");
 
-var space = document.getElementById("particles-js2");
-var navbar = document.getElementById("nav");
-var sticky = navbar.offsetTop;
-
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    space.classList.add("navSpace");
-    navbar.classList.add("sticky");
-  } else {
-    navbar.classList.remove("sticky");
-    space.classList.remove("navSpace");
+// TODO: throttle this function for optimal performance in production
+window.addEventListener('scroll', function(e){
+  var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
+  var stickyLine = header.scrollHeight - stickyNav.scrollHeight;
+  if(scrollPos > stickyLine){
+    stickyNav.classList.add("sticky");
+  }else if(stickyNav.classList.contains('sticky')){
+    stickyNav.classList.remove("sticky");
   }
-}
+});
