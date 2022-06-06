@@ -223,7 +223,7 @@ var stickyNav = document.querySelector("#nav");
 window.addEventListener('scroll', function(e){
   var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
   var stickyLine = header.scrollHeight - stickyNav.scrollHeight;
-  if(scrollPos > stickyLine){
+  if(scrollPos >= stickyLine){
     stickyNav.classList.add("sticky");
   }else if(stickyNav.classList.contains('sticky')){
     stickyNav.classList.remove("sticky");
