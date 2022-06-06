@@ -226,8 +226,8 @@ var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
 function scrollFunction() {
   
   if (scrollPos > stickyLine) {
-    document.getElementById("nav").style.opacity = "80%";
+    document.getElementById("nav").style.opacity = "0.8";
   } else {
-    document.getElementById("nav").style.opacity = "0%";
+    document.getElementById("nav").style.opacity = "0";
   }
 }
