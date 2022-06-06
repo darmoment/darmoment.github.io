@@ -218,7 +218,7 @@ particlesJS("particles-js2", {
 
 
 var header = document.querySelector("#particles-js2");
-var stickyNav = document.querySelector("#stickyNav");
+var stickyNav = document.querySelector("#nav");
 
 // TODO: throttle this function for optimal performance in production
 window.addEventListener('scroll', function(e){
