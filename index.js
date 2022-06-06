@@ -216,18 +216,15 @@ particlesJS("particles-js2", {
 });
 
 
-var header = document.querySelector("#particles-js");
-var stickyNav = document.querySelector("#nav");
+const nav = document.querySelector('#nav');
+let navTop = nav.offsetTop;
 
-// TODO: throttle this function for optimal performance in production
-window.addEventListener('scroll', function(e){
-  var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
-  var stickyLine = header.scrollHeight - stickyNav.scrollHeight;
-  var endLine = header.scrollHeight;
-  if(scrollPos = stickyLine){
-    stickyNav.classList.add("sticky");
+function fixedNav() {
+  if (window.scrollY >= navTop) {    
+    nav.classList.add('sticky');
+  } else {
+    nav.classList.remove('sticky');    
   }
-  else if(scrollPos <= endLine){
-    stickyNav.classList.remove("sticky");
-  }
-});
+}
+
+window.addEventListener('scroll', fixedNav);
