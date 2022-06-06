@@ -225,8 +225,8 @@ function scrollFunction() {
   var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
   var stickyLine = header.scrollHeight;
   if (scrollPos > stickyLine) {
-    document.querySelector("#nav").style.opacity = "80%";
+    document.getElementById("nav").style.opacity = "80%";
   } else {
-    document.querySelector("#nav").style.opacity = "0%";
+    document.getElementById("nav").style.opacity = "0%";
   }
 }
