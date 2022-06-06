@@ -215,7 +215,7 @@ particlesJS("particles-js2", {
     "retina_detect": true
 });
 
-
+/*
 const nav = document.querySelector('#nav');
 let navTop = nav.offsetTop;
 
@@ -228,3 +228,4 @@ function fixedNav() {
 }
 
 window.addEventListener('scroll', fixedNav);
+*/
