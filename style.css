@@ -175,10 +175,10 @@ li:before {
 /* ---- Navbar ---- */
 
 #nav {
-    transition: 500ms ease;
+    /*transition: 500ms ease;*/
     top: 0;
     background-color: white;
-    opacity: 0%;
+    opacity: 80%;
     color: black;
     display: flex;
     justify-content: space-between;
@@ -235,9 +235,9 @@ a:hover::after {
     top: 0;
     left: 0;
     width: 100%;
-    transition: 500ms;
+    /*transition: 500ms;
     transform: translate3d(0, 0, 0);
-    opacity: 80%;
+    opacity: 80%;*/
 }
 
 #nav.sticky + #particles-js2 {
