@@ -236,7 +236,7 @@ a:hover::after {
 }
 
 .sticky + #particles-js2 {
-    padding-top: 6rem;
+    padding-top: 3rem;
 }
 
 /* ---- Skills ---- */
