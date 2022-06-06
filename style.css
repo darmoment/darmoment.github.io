@@ -178,7 +178,7 @@ li:before {
     /*transition: 500ms ease;*/
     top: 0;
     background-color: white;
-    transition: top 300ms;
+    transition: 300ms ease;
     opacity: 0%;
     color: black;
     display: flex;
