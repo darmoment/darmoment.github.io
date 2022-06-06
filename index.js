@@ -222,7 +222,7 @@ var stickyNav = document.querySelector("#nav");
 // TODO: throttle this function for optimal performance in production
 window.addEventListener('scroll', function(e){
   var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
-  var stickyLine = header.scrollHeight - 3 ;
+  var stickyLine = header.scrollHeight - 5;
   if(scrollPos >= stickyLine){
     stickyNav.classList.add("sticky");
   }else if(stickyNav.classList.contains('sticky')){
