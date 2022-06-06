@@ -219,13 +219,14 @@ particlesJS("particles-js2", {
 var header = document.querySelector("particles-js2");
 var stickyNav = document.querySelector("#nav");
 
-// TODO: throttle this function for optimal performance in production
-window.addEventListener('scroll', function(e){
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
   var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
   var stickyLine = header.scrollHeight;
-  if(scrollPos > stickyLine){
+  if (scrollPos > stickyLine) {
     document.getElementById("#nav").style.opacity = "80%";
-  }else{
+  } else {
     document.getElementById("#nav").style.opacity = "0%";
   }
-});
+}
