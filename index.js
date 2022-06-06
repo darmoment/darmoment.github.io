@@ -224,7 +224,7 @@ window.addEventListener('scroll', function(e){
   var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
   var stickyLine = header.scrollHeight - stickyNav.scrollHeight;
   var endLine = header.scrollHeight;
-  if(scrollPos > stickyLine){
+  if(scrollPos >= stickyLine){
     stickyNav.classList.add("sticky");
   }
   else if(scrollPos <= endLine){
