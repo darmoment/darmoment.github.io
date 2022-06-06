@@ -176,7 +176,7 @@ li:before {
 
 #nav {
     /*transition: 500ms ease;*/
-    top: 0;
+    top: 100%;
     background-color: white;
     opacity: 80%;
     color: black;
