@@ -215,17 +215,17 @@ particlesJS("particles-js2", {
     "retina_detect": true
 });
 
-/*
-const nav = document.querySelector('#nav');
-let navTop = nav.offsetTop;
 
-function fixedNav() {
-  if (window.scrollY >= navTop) {    
-    nav.classList.add('sticky');
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("nav");
+var sticky = navbar.offsetTop;
+
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
   } else {
-    nav.classList.remove('sticky');    
+    navbar.classList.remove("sticky");
   }
 }
-
-window.addEventListener('scroll', fixedNav);
-*/
