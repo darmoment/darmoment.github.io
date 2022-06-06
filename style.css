@@ -234,6 +234,8 @@ a:hover::after {
     top: 0;
     left: 0;
     width: 100%;
+    transition: 300ms;
+    opacity: 80%;
 }
 
 #nav.sticky + #particles-js2 {
