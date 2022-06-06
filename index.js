@@ -220,10 +220,11 @@ var header = document.querySelector("#particles-js2");
 var stickyNav = document.querySelector("#nav");
 
 window.onscroll = function() {scrollFunction()};
+var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
+  var stickyLine = header.scrollHeight;
 
 function scrollFunction() {
-  var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
-  var stickyLine = header.scrollHeight;
+  
   if (scrollPos > stickyLine) {
     document.getElementById("nav").style.opacity = "80%";
   } else {
