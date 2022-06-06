@@ -175,6 +175,7 @@ li:before {
 /* ---- Navbar ---- */
 
 #nav {
+    transition: 500ms;
     top: 0;
     background-color: white;
     opacity: 0%;
