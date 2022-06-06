@@ -177,7 +177,7 @@ li:before {
 #nav {
     top: 0;
     background-color: white;
-    opacity: 80%;
+    opacity: 0%;
     color: black;
     display: flex;
     justify-content: space-between;
