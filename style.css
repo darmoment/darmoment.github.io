@@ -249,10 +249,7 @@ a:hover::after {
 }
 
 h2{
-    display: flex;
-    justify-content: center;
     font-size: 3rem;
-    width: 100%;
 }
 
 #container {
