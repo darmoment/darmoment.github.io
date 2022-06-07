@@ -167,7 +167,7 @@ li #code_3-1{
     left: 2.4rem;
 }
 
-#codelines:before { 
+li:before { 
     content: counter(item) "  "; 
     counter-increment: item 
 }
