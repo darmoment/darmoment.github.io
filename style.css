@@ -305,11 +305,13 @@ h2{
 	border-top: 10rem solid transparent;
     position: absolute;
     top: 190%;
+    height: 70rem;
 }
 
 #projectsec{
     position: absolute;
     top: 200%;
+    height: 70rem;
 }
 
 #projectpic{
