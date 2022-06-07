@@ -260,7 +260,7 @@ h2{
 }
 
 #course {
-    border: #763FEC solid;
+    border: #763FEC solid .4rem;
     margin: 1rem;
     padding: .2rem;
 }
