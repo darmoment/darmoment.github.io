@@ -276,7 +276,7 @@ h2{
 }
 
 p{
-    align-content: center;
+    justify-content: center;
 }
 
 #tools:hover{
