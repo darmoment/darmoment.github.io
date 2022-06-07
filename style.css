@@ -307,6 +307,7 @@ h2{
     display: flex;
     justify-content: center;
     position: absolute;
+    left: 0%;
     top: 190%;
     color: black;
     font-weight: bold;
