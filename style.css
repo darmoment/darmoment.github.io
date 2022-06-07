@@ -261,7 +261,7 @@ h2{
 
 #course{
     display: flex;
-    align-content: center;
+    justify-content: center;
 }
 
 .border-gradient {
