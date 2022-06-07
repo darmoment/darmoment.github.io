@@ -284,6 +284,7 @@ h2{
 }
 
 #tools{
+    transition: 300ms;
     margin: 1rem;
 }
 
