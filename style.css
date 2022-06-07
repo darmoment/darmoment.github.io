@@ -262,8 +262,8 @@ h2{
 
 #tool{
     transition: 300ms;
-    width: 10rem;
-    height: 10rem;
+    width: 6rem;
+    height: 6rem;
     object-fit:scale-down;
 }
 
