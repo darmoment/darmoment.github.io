@@ -278,10 +278,6 @@ h2{
     text-align: center;
 }
 
-p{
-    justify-content: center;
-}
-
 #tools:hover{
     transition: 300ms;
     transform: scale(1.3);
