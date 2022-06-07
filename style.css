@@ -246,5 +246,6 @@ a:hover::after {
 }
 
 #tool:hover{
+    transition: 300ms;
     transform: scale(1.3);
 }
