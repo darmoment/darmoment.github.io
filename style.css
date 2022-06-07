@@ -238,3 +238,9 @@ a:hover::after {
     position: absolute;
     top: 110%;
 }
+
+#tool{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
