@@ -304,7 +304,6 @@ h2{
 	border-bottom: 10rem solid transparent;
 	border-top: 10rem solid transparent;
 	height: 100rem;
-	width: 0rem;
     display: flex;
     justify-content: center;
     position: absolute;
