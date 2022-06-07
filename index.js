@@ -229,6 +229,6 @@ window.addEventListener('scroll', function(e){
     document.getElementById("nav").style.top = "0";
   }else if(scrollPos <= stickyLine){
     document.getElementById("nav").style.transition = "300ms";
-    document.getElementById("nav").style.top = "-3rem";
+    document.getElementById("nav").style.top = "-6rem";
   }
 });
