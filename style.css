@@ -242,5 +242,5 @@ a:hover::after {
 #tool{
     width: 5rem;
     height: 5rem;
-    object-fit: cover;
+    object-fit: fill;
 }
