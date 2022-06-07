@@ -272,6 +272,7 @@ h2{
 #tools{
     margin: .5rem;
     padding: .5rem;
+    align-content: center;
 }
 
 #tools:hover{
