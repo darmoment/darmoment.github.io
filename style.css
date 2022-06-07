@@ -273,7 +273,7 @@ h2{
 }
 
 .border-gradient-blue {
-    border-image-source: linear-gradient(left, #763FEC, #3F65EC);
+    border-image-source: linear-gradient(to left, #763FEC, #3F65EC);
 }
 
 #toolbag{
