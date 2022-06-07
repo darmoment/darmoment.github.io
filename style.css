@@ -240,6 +240,7 @@ a:hover::after {
     width: 100%;
     color: white;
     text-align: center;
+    font-weight: bold;
 }
 
 h2{
