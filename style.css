@@ -254,14 +254,15 @@ h2{
 #toolbag{
     display: flex;
     align-items: row;
-    width: 60rem;
+    width: 30rem;
     height: 60rem;
+    justify-content: space-between;
 }
 
 #tool{
     transition: 300ms;
-    width: 10rem;
-    height: 10rem;
+    width: 5rem;
+    height: 5rem;
     object-fit:scale-down;
 }
 
