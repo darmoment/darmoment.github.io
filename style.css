@@ -259,10 +259,8 @@ h2{
     justify-content: space-around;
 }
 
-#course {
-    border: #763FEC solid .16rem;
-    margin: 1rem;
-    padding: .3rem .5rem .3rem .5rem;
+#course{
+    align-items: center;
 }
 
 .border-gradient {
