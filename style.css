@@ -240,6 +240,7 @@ a:hover::after {
 }
 
 #tool{
+    transition: 300ms;
     width: 5rem;
     height: 5rem;
     object-fit:scale-down;
