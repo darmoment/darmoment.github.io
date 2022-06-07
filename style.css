@@ -286,8 +286,8 @@ h2{
 }
 
 #tool{
-    width: 8rem;
-    height: 8rem;
+    width: 7rem;
+    height: 7rem;
     object-fit:scale-down;
     margin-bottom: -1rem;
 }
