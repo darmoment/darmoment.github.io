@@ -299,10 +299,15 @@ h2{
 
 /* ---- Projects ---- */
 
-#projectsect{
+#projectdiv{
     border-right: 100rem solid rgba(250, 250, 250, .6);
 	border-bottom: 10rem solid transparent;
 	border-top: 10rem solid transparent;
+    position: absolute;
+    top: 190%;
+}
+
+#projectsec{
     position: absolute;
     top: 190%;
 }
