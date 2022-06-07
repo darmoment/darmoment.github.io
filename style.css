@@ -278,6 +278,7 @@ h2{
     width: 6rem;
     height: 6rem;
     object-fit:scale-down;
+    margin-bottom: -1rem;
 }
 
 #tools{
