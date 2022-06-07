@@ -304,15 +304,6 @@ h2{
 	border-bottom: 10rem solid transparent;
 	border-top: 10rem solid transparent;
 	height: 100rem;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    left: 0%;
-    top: 190%;
-    color: black;
-    font-weight: bold;
-    font-size: 1.3rem;
-    letter-spacing: .07rem;
 }
 
 #projectpic{
