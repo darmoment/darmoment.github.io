@@ -30,6 +30,10 @@ canvas2 {
 
 /* ---- About ---- */
 
+#home{
+    width: 100%;
+}
+
 #about{
     position: absolute;
     top: 18%;
