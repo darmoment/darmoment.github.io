@@ -303,13 +303,12 @@ h2{
     border-right: 100rem solid white;
 	border-bottom: 10rem solid transparent;
 	border-top: 10rem solid transparent;
-	height: 50rem;
+	height: 100rem;
 	width: 0rem;
     display: flex;
     justify-content: center;
     position: absolute;
     top: 190%;
-    width: 100%;
     color: black;
     font-weight: bold;
     font-size: 1.3rem;
