@@ -251,6 +251,14 @@ h2{
     align-content: row;
 }
 
+#courses {
+    width: 30rem;
+}
+
+#skills {
+    width: 47rem;
+}
+
 #tool{
     transition: 300ms;
     width: 5rem;
