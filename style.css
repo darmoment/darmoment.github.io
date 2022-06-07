@@ -272,9 +272,9 @@ h2{
     border-image-slice: 1;
 }
 
-.border-gradient-purple {
+.border-gradient-blue {
     border-image-source: linear-gradient(to left, #743ad5, #3F65EC);
-  }
+}
 
 #toolbag{
     display: flex;
