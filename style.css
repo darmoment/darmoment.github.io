@@ -246,6 +246,10 @@ h2{
     font-size: 3rem;
 }
 
+#container {
+    display: flex;
+    align-content: row;
+}
 
 #tool{
     transition: 300ms;
