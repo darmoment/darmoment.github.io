@@ -251,14 +251,6 @@ h2{
     align-content: row;
 }
 
-#courses {
-    width: 30rem;
-}
-
-#toolbag{
-    width: 47rem;
-}
-
 #tool{
     transition: 300ms;
     width: 5rem;
