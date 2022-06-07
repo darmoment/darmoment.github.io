@@ -256,6 +256,7 @@ h2{
     display: flex;
     align-content: row;
     justify-content: space-between;
+    justify-content: space-around;
 }
 
 #course {
