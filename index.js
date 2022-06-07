@@ -225,10 +225,12 @@ window.addEventListener('scroll', function(e){
   var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
   var stickyLine = header.scrollHeight - stickyNav.scrollHeight;
   if(scrollPos > stickyLine){
-    document.getElementById("nav").style.transition = "top 300ms ease";
+    document.getElementById("nav").style.transition = "300ms";
+    document.getElementById("nav").style.top = "0";
     document.getElementById("nav").style.opacity = "80%";
   }else if(scrollPos <= stickyLine){
-    document.getElementById("nav").style.transition = "top 300ms ease";
+    document.getElementById("nav").style.transition = "300ms";
+    document.getElementById("nav").style.top = "-3rem";
     document.getElementById("nav").style.opacity = "0%";
   }
 });
