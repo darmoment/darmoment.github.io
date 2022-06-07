@@ -300,10 +300,34 @@ h2{
 /* ---- Projects ---- */
 
 #projects{
-    border-right: 100rem solid #555;
+    border-right: 100rem solid white;
 	border-bottom: 10rem solid transparent;
 	border-top: 10rem solid transparent;
 	height: 50rem;
 	width: 0rem;
     opacity: 60%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 150%;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: .07rem;
+    background-color: white;
+}
+
+#project{
+    width: 90rem;
+    background-color: white;
+    border-radius: .2rem solid white;
+    display: flex;
+    align-content: row;
+    justify-content: space-evenly;
+}
+
+#projectpic{
+    width: 40rem;
+    height: 30rem;
 }
