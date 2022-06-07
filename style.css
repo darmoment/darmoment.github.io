@@ -251,6 +251,12 @@ h2{
     align-content: row;
 }
 
+#toolbag{
+    width: 50rem;
+    display: flex;
+    align-items: row;
+}
+
 #tool{
     transition: 300ms;
     width: 5rem;
