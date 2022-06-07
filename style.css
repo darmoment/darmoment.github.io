@@ -239,6 +239,7 @@ a:hover::after {
     top: 120%;
     width: 100%;
     color: white;
+    text-align: center;
 }
 
 h2{
