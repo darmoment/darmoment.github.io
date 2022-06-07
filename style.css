@@ -265,6 +265,17 @@ h2{
     padding: .3rem .5rem .3rem .5rem;
 }
 
+#border-gradient {
+    border: #763FEC solid .16rem;
+    margin: 1rem;
+    padding: .3rem .5rem .3rem .5rem;
+    border-image-slice: 1;
+}
+
+.border-gradient-purple {
+    border-image-source: linear-gradient(to left, #743ad5, #3F65EC);
+  }
+
 #toolbag{
     display: flex;
     flex-direction: row;
@@ -276,7 +287,6 @@ h2{
 }
 
 #tool{
-    transition: 300ms;
     width: 6rem;
     height: 6rem;
     object-fit:scale-down;
