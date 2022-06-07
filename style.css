@@ -254,6 +254,8 @@ h2{
 #toolbag{
     display: flex;
     align-items: row;
+    width: 60rem;
+    height: 60rem;
     justify-content: space-between;
 }
 
