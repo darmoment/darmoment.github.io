@@ -175,7 +175,6 @@ li:before {
 /* ---- Navbar ---- */
 
 #nav {
-    /*transition: 500ms ease;*/
     top: -3rem;
     background-color: white;
     opacity: 80%;
@@ -231,20 +230,6 @@ a::after {
 
 a:hover::after {
     width: 100%;
-}
-
-#nav.sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    /*transition: 500ms;
-    transform: translate3d(0, 0, 0);
-    opacity: 80%;*/
-}
-
-#nav.sticky + #particles-js2 {
-    padding-top: 2.9rem;
 }
 
 /* ---- Skills ---- */
