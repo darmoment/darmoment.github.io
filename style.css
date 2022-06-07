@@ -296,3 +296,14 @@ h2{
     transition: 300ms;
     transform: scale(1.3);
 }
+
+/* ---- Projects ---- */
+
+#projects{
+    border-right: 100rem solid #555;
+	border-bottom: 10rem solid transparent;
+	border-top: 10rem solid transparent;
+	height: 50rem;
+	width: 0rem;
+    opacity: 60%;
+}
