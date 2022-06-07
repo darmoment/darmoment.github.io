@@ -315,7 +315,7 @@ h2{
     font-weight: bold;
     font-size: 1.3rem;
     letter-spacing: .07rem;
-    background-color: white;
+    background-color: rgba(250, 250, 250, .6);
 }
 
 #projects{
