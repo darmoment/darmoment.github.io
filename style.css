@@ -260,11 +260,6 @@ h2{
     margin-top: 5rem;
 }
 
-#course{
-    display: flex;
-    justify-content: center;
-}
-
 .border-gradient {
     border: #763FEC solid .16rem;
     margin: 1rem;
