@@ -246,7 +246,7 @@ a:hover::after {
     object-fit:scale-down;
 }
 
-#tool:hover{
+#tools:hover{
     transition: 300ms;
     transform: scale(1.3);
 }
