@@ -241,6 +241,7 @@ a:hover::after {
     color: white;
     text-align: center;
     font-weight: bold;
+    font-size: 2rem;
 }
 
 h2{
