@@ -107,7 +107,7 @@ particlesJS("particles-js", {
   });
 
 
-/* ---- particles.js2 config ---- 
+/* ---- particles.js2 config ---- */
 
 particlesJS("particles-js2", {
     "particles": {
@@ -214,7 +214,7 @@ particlesJS("particles-js2", {
     },
     "retina_detect": true
 });
-*/
+
 
 
 var header = document.querySelector("#particles-js");
