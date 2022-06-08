@@ -119,7 +119,7 @@ particlesJS("particles-js2", {
         }
       },
       "color": {
-        "value": "#3F65EC"
+        "value": ["#3F65EC", "#FFFFFF"]
       },
       "shape": {
         "type": "edge",
