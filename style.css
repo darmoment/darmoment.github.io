@@ -326,6 +326,7 @@ h2{
     position: absolute;
     top: 15rem;
     width: 100rem;
+    justify-content: center;
     align-items: center;
 }
 
