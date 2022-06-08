@@ -223,9 +223,11 @@ var sticky = navbar.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+    navbar.style.top = "0%";
+    navbar.style.position = "fixed";
   } else {
-    navbar.classList.remove("sticky");
+    navbar.style.top = "100%";
+    navbar.style.position = "absolute";
   }
 }
 
