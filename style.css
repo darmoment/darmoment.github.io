@@ -328,10 +328,6 @@ h2{
     width: 100%;
 }
 
-#projects{
-    display: flex;
-}
-
 #project{
     display: flex;
     align-items: row;
