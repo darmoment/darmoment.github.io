@@ -216,21 +216,5 @@ particlesJS("particles-js2", {
 });
 
 
-var header = document.querySelector("#particles-js");
-var stickyNav = document.querySelector("#nav");
-
-// TODO: throttle this function for optimal performance in production
-window.addEventListener('scroll', function(e){
-  var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
-  var stickyLine = header.scrollHeight - stickyNav.scrollHeight - stickyNav.scrollHeight - stickyNav.scrollHeight - stickyNav.scrollHeight - stickyNav.scrollHeight;
-  if(scrollPos > stickyLine){
-    document.getElementById("nav").style.transition = "300ms";
-    document.getElementById("nav").style.top = "0";
-  }else if(scrollPos <= stickyLine){
-    document.getElementById("nav").style.transition = "300ms";
-    document.getElementById("nav").style.top = "-6rem";
-  }
-});
-
 
 document.getElementById("wrapper").style.top = (document.getElementById("particles-js").offsetHeight + document.getElementById("skills").offsetHeight + 250) + "px";
