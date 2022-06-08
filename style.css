@@ -329,6 +329,11 @@ h2{
     width: 100%;
 }
 
+#project{
+    display: flex;
+    align-items: row;
+}
+
 #projectpic{
     width: 40rem;
     height: 30rem;
