@@ -299,8 +299,9 @@ h2{
 
 /* ---- Projects ---- */
 
-.wrapper{
-    
+#wrapper{
+    position: absolute;
+    top: 200%;
 }
 
 #projectdiv{
