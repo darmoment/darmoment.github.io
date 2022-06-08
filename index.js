@@ -233,4 +233,4 @@ window.addEventListener('scroll', function(e){
 });
 
 document.getElementById("particle-js").style.top = (document.getElementById("test").offsetHeight) + "px";
-document.getElementById("wrapper").style.top = (document.getElementById("particles-js").offsetHeight + document.getElementById("skills").offsetHeight + 250) + "px";
+/*document.getElementById("wrapper").style.top = (document.getElementById("particles-js").offsetHeight + document.getElementById("skills").offsetHeight + 250) + "px";*/
