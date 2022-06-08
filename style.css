@@ -325,6 +325,7 @@ h2{
 #wrapper{
     position: absolute;
     top: 9rem;
+    width: 100%;
     background-color: black;
 }
 
