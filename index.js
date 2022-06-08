@@ -222,7 +222,7 @@ var navbar = document.getElementById("nav");
 var sticky = document.getElementById("particles-js");
 
 function myFunction() {
-  if (window.pageYOffset >= stick.offsetHeight) {
+  if (window.pageYOffset >= sticky.offsetHeight) {
     navbar.style.top = "0%";
     navbar.style.position = "fixed";
   } else {
