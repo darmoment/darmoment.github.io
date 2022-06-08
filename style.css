@@ -328,7 +328,7 @@ h2{
     width: 90rem;
     display: flex;
     justify-content: center;
-    align-content: row;
+    align-content: column;
 }
 
 #project{
