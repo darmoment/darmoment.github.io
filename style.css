@@ -326,6 +326,7 @@ h2{
     position: absolute;
     top: 9rem;
     width: 90rem;
+    height: 100rem;
     display: flex;
     justify-content: center;
     align-content: column;
