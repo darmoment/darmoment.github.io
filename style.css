@@ -200,8 +200,6 @@ li #code_3-1{
     z-index: 1;
     position: absolute;
     top: 100%;
-    -webkit-transform: translateZ(0);
-
 }
 
 #emblem {
@@ -327,6 +325,10 @@ h2{
     position: absolute;
     height: 100rem;
     
+}
+
+#wrapper + #projectsec {
+    padding: 45rem;
 }
 
 #projectpic{
