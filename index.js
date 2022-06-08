@@ -215,6 +215,18 @@ particlesJS("particles-js2", {
     "retina_detect": true
 });
 
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("nav");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
 
 
 document.getElementById("wrapper").style.top = (document.getElementById("particles-js").offsetHeight + document.getElementById("skills").offsetHeight + 250) + "px";
