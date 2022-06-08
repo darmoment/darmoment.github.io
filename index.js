@@ -219,14 +219,14 @@ particlesJS("particles-js2", {
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("nav");
-var sticky = navbar.offsetTop;
+var sticky = document.getElementById("particles-js");
 
 function myFunction() {
-  if (window.pageYOffset >= sticky) {
+  if (window.pageYOffset >= stick.offsetHeight) {
     navbar.style.top = "0%";
     navbar.style.position = "fixed";
   } else {
-    navbar.style.top = "100px";
+    navbar.style.top = "100%";
     navbar.style.position = "absolute";
   }
 }
