@@ -226,7 +226,7 @@ function myFunction() {
     navbar.style.top = "0%";
     navbar.style.position = "fixed";
   } else {
-    navbar.style.top = "100%";
+    navbar.style.top = "100px";
     navbar.style.position = "absolute";
   }
 }
