@@ -205,7 +205,7 @@ li #code_3-1{
 
 
 .sticky {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
 }
