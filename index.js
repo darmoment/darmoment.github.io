@@ -216,6 +216,18 @@ particlesJS("particles-js2", {
 });
 
 
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("particle-js2");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
 
 var header = document.querySelector("#particles-js");
 var stickyNav = document.querySelector("#nav");
