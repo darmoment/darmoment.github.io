@@ -309,7 +309,7 @@ h2{
 
 /* ---- Projects ---- */
 
-#wrapper{
+#projectsec{
     position: absolute;
 }
 
@@ -322,7 +322,7 @@ h2{
     width: 100%;
 }
 
-#projectsec{
+#wrapper{
     position: absolute;
     top: 15rem;
     width: 100%;
