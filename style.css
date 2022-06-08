@@ -4,6 +4,7 @@ html, body {
     width: auto; 
     height: 100vh;
     margin: 0;
+    z-index: 500rem;
 }
 
 canvas {
