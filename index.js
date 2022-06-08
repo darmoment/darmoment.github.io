@@ -115,11 +115,11 @@ particlesJS("particles-js2", {
         "value": 40,
         "density": {
           "enable": true,
-          "value_area": 8
+          "value_area": 800
         }
       },
       "color": {
-        "value": ["#3F65EC", "#FFFFFF"]
+        "value": ["#3F65EC", "#763FEC"]
       },
       "shape": {
         "type": "edge",
