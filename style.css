@@ -331,7 +331,7 @@ h2{
 #project{
     display: flex;
     align-items: row;
-    background-color: white;
+    background-color: #F9F7F7;
     height: 25rem;
     margin-top: 2rem;
 }
