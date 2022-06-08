@@ -328,7 +328,7 @@ h2{
     width: 100vw;
     background-color: black;
     display: flex;
-    align-content: center;
+    align-content: column;
 }
 
 #project{
