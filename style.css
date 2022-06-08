@@ -36,6 +36,10 @@ canvas2 {
     z-index: -500rem;
 }
 
+#test2 {
+    background: #232323;
+}
+
 /* ---- About ---- */
 
 #home{
