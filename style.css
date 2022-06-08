@@ -190,7 +190,7 @@ li #code_3-1{
 /* ---- Navbar ---- */
 
 #nav {
-    top: -3rem;
+    top: 100%;
     background-color: white;
     opacity: 80%;
     color: black;
