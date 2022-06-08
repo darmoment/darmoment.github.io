@@ -233,4 +233,4 @@ window.addEventListener('scroll', function(e){
   }
 });
 
-document.getElementByClassName("wrapper").style.top = (document.getElementById("particles-js").scrollHeight + document.getElementById("skills").scrollHeight) + "rem";
+document.getElementById("wrapper").style.top = (document.getElementById("particles-js").scrollHeight + document.getElementById("skills").scrollHeight) + "rem";
