@@ -325,7 +325,7 @@ h2{
 #wrapper{
     position: absolute;
     top: 9rem;
-    width: 80rem;
+    width: 100rem;
     justify-content: center;
 }
 
@@ -333,6 +333,7 @@ h2{
     display: flex;
     align-items: row;
     background-color: #F9F7F7;
+    width: 80rem;
     height: 25rem;
     margin-top: 2rem;
 }
