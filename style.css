@@ -330,12 +330,14 @@ h2{
 
 #projects{
     display: flex;
-    justify-content: space-evenly;
 }
 
 #project{
     display: flex;
     align-items: row;
+    background-color: white;
+    width: 80%;
+    height: 60rem;
 }
 
 #projectpic{
