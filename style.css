@@ -339,7 +339,7 @@ h2{
     margin-top: 2rem;
     width: 85rem;
     border-radius: 1rem;
-    box-shadow: .2rem .2rem 0;
+    box-shadow: .2rem .2rem 1rem;
 }
 
 #projectpic{
