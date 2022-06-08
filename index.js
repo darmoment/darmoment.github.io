@@ -232,3 +232,5 @@ window.addEventListener('scroll', function(e){
     document.getElementById("nav").style.top = "-6rem";
   }
 });
+
+document.getElementByClassName("container").style.top = (266 + document.getElementByClassName("footer").offsetHeight) + "rem";
