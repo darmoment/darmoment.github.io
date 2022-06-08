@@ -328,12 +328,13 @@ h2{
     width: 100%;
 }
 
-#project1{
+#project{
     display: flex;
     align-items: row;
     background-color: white;
     width: 80%;
     height: 60rem;
+    z-index: 1;
 }
 
 #projectpic{
