@@ -300,7 +300,6 @@ h2{
 /* ---- Projects ---- */
 
 #projectdiv{
-    position: absolute;
     height: 70rem;
     border-style: solid;
     border-width: 10rem 98.95vw 10rem 0;
