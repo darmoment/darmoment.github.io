@@ -325,7 +325,7 @@ h2{
 #wrapper{
     position: absolute;
     top: 9rem;
-    width: 100%;
+    width: 90rem;
     display: flex;
     justify-content: center;
 }
