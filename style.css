@@ -299,6 +299,10 @@ h2{
 
 /* ---- Projects ---- */
 
+.wrapper{
+    position: absolute;
+}
+
 #projectdiv{
     height: 70rem;
     border-style: solid;
