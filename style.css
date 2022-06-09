@@ -378,9 +378,6 @@ p{
     background-color: #F9F7F7;
     border-radius: 1rem;
     height: 40rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
     width: 70rem;
 }
 
