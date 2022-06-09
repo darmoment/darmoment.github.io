@@ -398,4 +398,5 @@ p{
     flex-direction: column;
     align-items: center;
     border-radius: 1rem;
+    box-shadow: 0 .1rem .5rem 0 rgb(52, 52, 52);
 }
