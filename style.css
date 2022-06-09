@@ -392,3 +392,7 @@ p{
     justify-content: space-evenly;
     flex-direction: column;
 }
+
+#input-group #input-row{
+    flex-basis: 45%
+}
