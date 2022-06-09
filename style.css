@@ -380,7 +380,7 @@ p{
 }
 
 #blocks{
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
