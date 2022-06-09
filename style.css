@@ -334,13 +334,15 @@ h2{
 #project{
     display: flex;
     align-items: row;
+    align-items: center;
+    justify-content: space-around;
     background-color: #F9F7F7;
     height: 25rem;
     margin-top: 2rem;
     width: 85rem;
     border-radius: 1rem;
     box-shadow: 0 .1rem .5rem 0 rgb(52, 52, 52);
-    align-items: center;
+    
 }
 
 #projectpic{
