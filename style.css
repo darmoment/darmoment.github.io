@@ -417,6 +417,7 @@ input{
 }
 
 textarea{
+    font-family: 'Inter', sans-serif;
     border-radius: .6rem;
     border: .08rem solid black;
     height: 10rem;
