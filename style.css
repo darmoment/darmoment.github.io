@@ -390,7 +390,7 @@ p{
     width: 70rem;
     display: flex;
     justify-content: space-evenly;
-    justify-content: center;
+    align-content: center;
     flex-direction: column;
 }
 
