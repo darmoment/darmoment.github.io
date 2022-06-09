@@ -372,9 +372,9 @@ p{
 
 #contact{
     position: absolute;
-    width: 100vw;
+    width: 100%;
     display: flex;
-    align-items: column;
+    flex-direction: column;
     justify-content: center;
 }
 
