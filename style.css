@@ -418,6 +418,7 @@ input{
     height: 1.7rem;
     font-size: 1rem;
     color: black;
+    padding: .2rem
 }
 
 textarea{
