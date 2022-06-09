@@ -386,6 +386,8 @@ p{
 }
 
 #input-group{
+    height: 40rem;
+    width: 70rem;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
