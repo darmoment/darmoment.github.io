@@ -238,35 +238,16 @@ document.getElementById("contact").style.top = (document.getElementById("particl
 const form = document.querySelector("form"),
 statusTxt = form.querySelector("#button-area");
 
-function submit() {
-  const name = document.getElementById("name").value;
-  const email = document.getElementById("email").value;
-  const subject = document.getElementById("subject").value;
-  const message = document.getElementById("message").value;
-
-  document.getElementById("name").value = "";
-  document.getElementById("email").value = "";
-  document.getElementById("subject").value = "";
-  document.getElementById("message").value = "";
-
-
-  var service_id = "default_service";
-
-  const params = {
-    reply_to: email,
-    from_name: name,
-    subject,
-    message,
-  };
-
-  var template_id = "template_3HYPq8Hz";
-  console.log(service_id, params, template_id);
-  emailjs.send(service_id, template_id, params)
-    .then(function(){ 
-        alert("Thanks for Reaching Out!");
-      }, function(err) {
-        alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
-    });
-
-  return false;
-} 
+form.onsubmit = (e)=>{
+  e.preventDefault();
+   
+  let xhr = new XMLHttpRequest();
+  xhr.open("POST", "message.php", true);
+  xhr.onload = ()=> {
+    if(xhr.readyState == 4 && xhr.status == 200){
+      let response = xhr.response;
+      console.log(response);
+    }
+  }
+  xhr.send();
+}
