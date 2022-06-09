@@ -433,3 +433,7 @@ textarea{
     resize: none;
     padding: .3rem;
 }
+
+label {
+    margin-bottom: .02rem;
+}
