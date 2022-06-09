@@ -407,6 +407,8 @@ input{
     height: 1.5rem;
 }
 
-#message{
+textarea{
     height: 10rem;
+    width: 60rem;
+    resize: none;
 }
