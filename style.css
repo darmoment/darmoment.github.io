@@ -407,7 +407,6 @@ input{
     height: 1.5rem;
 }
 
-textarea{
+input{
     height: 10rem;
-    resize: none;
 }
