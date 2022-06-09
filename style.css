@@ -377,6 +377,7 @@ p{
     flex-direction: column;
     align-items: center;
     color: white;
+    padding-bottom: 100rem;
 }
 
 #blocks{
