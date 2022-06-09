@@ -403,4 +403,6 @@ input{
     width: 60rem;
     border-radius: 1rem;
     border: .08rem solid black;
+    color:#F9F7F7;
+    height: 1rem;
 }
