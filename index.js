@@ -233,4 +233,4 @@ function myFunction() {
 
 
 document.getElementById("projectsec").style.top = (document.getElementById("particles-js").offsetHeight + document.getElementById("skills").offsetHeight + 250) + "px";
-document.getElementById("contact").style.top = (document.getElementById("particles-js").scrollHeight + document.getElementById("skills").scrollHeight + document.getElementById("projectsec").scrollHeight + 250) + "px";
+document.getElementById("contact").style.top = (document.getElementById("particles-js").offsetHeight + document.getElementById("skills").offsetHeight + document.getElementById("projectsec").offsetHeight + 250) + "px";
