@@ -393,4 +393,7 @@ p{
     flex-direction: column;
 }
 
-
+#input-row{
+    display: flex;
+    flex-direction: column;
+}
