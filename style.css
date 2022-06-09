@@ -407,6 +407,7 @@ form{
 #input-row{
     display: flex;
     flex-direction: column;
+    color: black;
 }
 
 input{
@@ -422,6 +423,7 @@ input{
 textarea{
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
+    background-color:#F9F7F7;
     color: black;
     border-radius: .6rem;
     border: .08rem solid black;
