@@ -331,6 +331,10 @@ h2{
     align-items: center;
 }
 
+#projects{
+    margin-top: 1rem;
+}
+
 #project{
     display: flex;
     align-items: row;
