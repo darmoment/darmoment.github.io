@@ -402,5 +402,5 @@ p{
 input{
     width: 60rem;
     border-radius: 1rem;
-    border: none;
+    border: .2rem solid black;
 }
