@@ -416,13 +416,13 @@ input{
     background-color:#F9F7F7;
     height: 1.5rem;
     font-size: 1rem;
-    color: black
+    color: black;
 }
 
 textarea{
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
-    color: black
+    color: black;
     border-radius: .6rem;
     border: .08rem solid black;
     height: 10rem;
