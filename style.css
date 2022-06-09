@@ -418,7 +418,7 @@ input{
     height: 1.7rem;
     font-size: 1rem;
     color: black;
-    padding: .2rem
+    padding: .2rem;
 }
 
 textarea{
@@ -431,5 +431,5 @@ textarea{
     height: 10rem;
     width: 60rem;
     resize: none;
-    padding: .2rem
+    padding: .2rem;
 }
