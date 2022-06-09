@@ -382,7 +382,7 @@ p{
 #blocks{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
     align-items: center;
 }
