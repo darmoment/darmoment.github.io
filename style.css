@@ -418,6 +418,7 @@ input{
 
 textarea{
     font-family: 'Inter', sans-serif;
+    font-size: 1rem;
     border-radius: .6rem;
     border: .08rem solid black;
     height: 10rem;
