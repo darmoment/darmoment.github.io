@@ -391,7 +391,8 @@ p{
     display: flex;
     background-color: #232323;
     justify-content: space-evenly;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
