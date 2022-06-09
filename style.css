@@ -384,7 +384,6 @@ p{
     height: 40rem;
     width: 70rem;
     display: flex;
-    flex-direction: column;
 }
 
 #input-group{
