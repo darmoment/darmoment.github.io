@@ -417,6 +417,8 @@ input{
 }
 
 textarea{
+    border-radius: .6rem;
+    border: .08rem solid black;
     height: 10rem;
     width: 60rem;
     resize: none;
