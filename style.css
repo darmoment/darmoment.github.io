@@ -406,3 +406,7 @@ input{
     color:#F9F7F7;
     height: 1.5rem;
 }
+
+#message{
+    height: 7rem;
+}
