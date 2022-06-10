@@ -116,8 +116,8 @@ button:hover {
     left: 94%;
     top: 28%;
     opacity: 65%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    -ms-transform: translateY(-28%);
+    transform: translateY(-28%);
     margin: 0;
 }
 
