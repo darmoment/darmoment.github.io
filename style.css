@@ -116,9 +116,6 @@ button:hover {
     left: 94%;
     top: 28%;
     opacity: 65%;
-    -ms-transform: translateY(-28%);
-    transform: translateY(-28%);
-    margin: 0;
 }
 
 #square_3{
