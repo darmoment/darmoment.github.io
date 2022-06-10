@@ -427,6 +427,7 @@ p{
 
 #container2{
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-content: center;
 }
