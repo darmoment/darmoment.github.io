@@ -128,6 +128,13 @@ button:hover {
     opacity: 65%;
 }
 
+#codebox{
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0;
+}
+
 #code{
     position: absolute;
     top: 27%;
