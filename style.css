@@ -50,16 +50,6 @@ canvas {
     animation: appear 1s;
 }
 
-@keyframes appear {
-    0% {
-        opacity: 0;
-      }
-    
-      100% {
-        opacity: 1;
-      }
-}
-
 #highlight{
     color: #763FEC;
 }
@@ -421,13 +411,6 @@ p{
 #contactsymbol:hover {
     animation: shake 1s;
 }
-  
-@keyframes shake {
-0% { transform: rotate(0deg); }
-30% { transform: rotate(30deg); }
-90% { transform: rotate(-30deg); }
-100% { transform: rotate(0deg); }
-}
 
 /* ---- Bottom Nav ---- */
 
@@ -462,4 +445,25 @@ p{
     transition: 300ms;
     opacity: 0%;
     z-index: 1;
+}
+
+/* ---- Animations ---- */
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateY(-10rem);
+      }
+    
+      100% {
+        opacity: 1;
+        transform: translateY(-10rem);
+      }
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    30% { transform: rotate(30deg); }
+    90% { transform: rotate(-30deg); }
+    100% { transform: rotate(0deg); }
 }
