@@ -431,9 +431,7 @@ p{
     align-items: center;
 }
 
-#glyhps{
-    background-color: #763FEC;
-    width: 20rem;
+#glyphs{
     display: flex;
     justify-items: space-between;
 }
