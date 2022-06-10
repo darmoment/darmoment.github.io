@@ -236,11 +236,11 @@ function navFunction() {
 }
 
 function topbuttFunction() {
-  if{
-
+  if(window.pageYOffset >= sticky.offsetHeight){
+    topbutt.style.opacity = "100%";
   }
   else{
-    topbutt.style.top = ();
+    topbutt.style.opacity = "0%";
   }
 }
 
