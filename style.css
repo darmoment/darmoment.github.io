@@ -452,10 +452,12 @@ p{
 @keyframes appear {
     0% {
         opacity: 0;
+        left: 0;
       }
     
       100% {
         opacity: 1;
+        left: 6%;
       }
 }
 
