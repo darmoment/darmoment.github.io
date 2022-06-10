@@ -417,6 +417,7 @@ i:hover {
     position: absolute;
     margin-top: 15rem;
     background-color: #E9E9E9;
+    height: 10rem;
     width: 100%;
     display: flex;
     flex-direction: column;
