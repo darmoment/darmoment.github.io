@@ -274,7 +274,6 @@ h2{
     align-content: row;
     justify-content: space-evenly;
     margin-top: 5rem;
-    animation: appear 1s;
 }
 
 .border-gradient {
@@ -447,16 +446,6 @@ p{
 }
 
 /* ---- Animations ---- */
-
-@keyframes appear {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
 @keyframes shake {
     0% { transform: rotate(0deg); }
     30% { transform: rotate(30deg); }
