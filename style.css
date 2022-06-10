@@ -424,7 +424,8 @@ p{
 #container2{
     display: flex;
     background-color: #232323;
-    margin: 1rem auto auto auto;
+    margin: auto auto auto auto;
     width: 20rem;
     flex-direction: column;
+    justify-content: center;
 }
