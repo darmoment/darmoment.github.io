@@ -432,6 +432,7 @@ p{
 }
 
 #glyphs{
+    width: 20rem;
     display: flex;
     justify-items: space-between;
 }
