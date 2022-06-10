@@ -98,7 +98,7 @@ button:hover {
     height: 3.4rem;
     position: relative;
     left: -10%;
-    top: 0rem;
+    top: -10%;
     opacity: 65%;
 }
 
