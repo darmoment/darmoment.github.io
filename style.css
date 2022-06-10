@@ -441,6 +441,7 @@ p{
     position: fixed;
     bottom: 1rem;
     right: 1rem;
+    transition: 300ms;
     opacity: 0%;
     z-index: 1;
 }
