@@ -439,7 +439,9 @@ p{
     width: 2rem;
     color: #F9F7F7;
     position: fixed;
-    bottom: 0;
+    bottom: 1rem;
     opacity: 0%;
     z-index: 1;
+    display: flex;
+    justify-content: end;
 }
