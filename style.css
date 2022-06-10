@@ -425,7 +425,4 @@ p{
     display: flex;
     background-color: #232323;
     width: 20rem;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
 }
