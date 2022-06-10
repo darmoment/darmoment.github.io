@@ -96,7 +96,6 @@ button:hover {
     background-color: #763FEC;
     width: 3.4rem;
     height: 3.4rem;
-    position: absolute;
     left: 64%;
     top: 59%;
     opacity: 65%;
@@ -106,7 +105,6 @@ button:hover {
     background-color: #956CED;
     width: 3.4rem;
     height: 3.4rem;
-    position: absolute;
     left: 94%;
     top: 28%;
     opacity: 65%;
@@ -116,7 +114,6 @@ button:hover {
     background-color: #763FEC;
     width: 4.3rem;
     height: 3.5rem;
-    position: absolute;
     left: 90.4%;
     top: 22.3%;
     opacity: 65%;
