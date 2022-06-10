@@ -438,5 +438,7 @@ p{
     height: 2rem;
     width: 2rem;
     color: #F9F7F7;
-    position: absolute;
+    position: fixed;
+    bottom: 0;
+    opacity: 0%;
 }

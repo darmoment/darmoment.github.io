@@ -235,6 +235,15 @@ function navFunction() {
   }
 }
 
+function topbuttFunction() {
+  if{
+
+  }
+  else{
+    topbutt.style.top = ();
+  }
+}
+
 
 document.getElementById("projectsec").style.top = (document.getElementById("particles-js").scrollHeight + document.getElementById("skills").scrollHeight + 250) + "px";
 document.getElementById("contact").style.top = (document.getElementById("particles-js").scrollHeight + document.getElementById("skills").scrollHeight + document.getElementById("projectsec").scrollHeight + 250) + "px";
