@@ -424,8 +424,7 @@ p{
 #container2{
     display: flex;
     background-color: #232323;
-    margin: auto;
-    padding: auto;
+    margin: auto auto auto auto;
     width: 20rem;
     flex-direction: column;
 }
