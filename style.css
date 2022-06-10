@@ -432,6 +432,7 @@ p{
 }
 
 #glyhps{
+    width: 20rem;
     display: flex;
     justify-items: space-between;
 }
