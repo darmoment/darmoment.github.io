@@ -432,6 +432,7 @@ p{
 }
 
 #glyhps{
+    background-color: #763FEC;
     width: 20rem;
     display: flex;
     justify-items: space-between;
