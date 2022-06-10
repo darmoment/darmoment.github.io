@@ -422,6 +422,8 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-content: center;
+    justify-content: center;
 }
 
 #container2{
