@@ -47,7 +47,6 @@ canvas {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     margin: 0;
-    animation: appearAbout 1s;
 }
 
 #highlight{
@@ -130,7 +129,6 @@ button:hover {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     margin: 0;
-    animation: appearCode 1s;
 }
 
 #code{
@@ -448,31 +446,6 @@ p{
 }
 
 /* ---- Animations ---- */
-
-@keyframes appearAbout {
-    0% {
-        opacity: 0;
-        left: 0;
-      }
-    
-      100% {
-        opacity: 1;
-        left: 6%;
-      }
-}
-
-@keyframes appearCode {
-    0% {
-        opacity: 0;
-        left: 67%;
-      }
-    
-      100% {
-        opacity: 1;
-        left: 65.5%;
-      }
-}
-
 @keyframes shake {
     0% { transform: rotate(0deg); }
     30% { transform: rotate(30deg); }
