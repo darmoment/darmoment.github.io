@@ -42,6 +42,8 @@ canvas2 {
 
 #home{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #about{
@@ -49,8 +51,6 @@ canvas2 {
     left: 6%;
     color: #E9E9E9;
     width: 47rem;
-    display: flex;
-    justify-content: center;
 }
 
 #highlight{
