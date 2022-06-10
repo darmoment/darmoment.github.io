@@ -130,7 +130,6 @@ button:hover {
 
 #code{
     position: absolute;
-    top: 27%;
     left: 65.5%;
     color: #763FEC;
     background-color: #E9E9E9;
@@ -139,6 +138,10 @@ button:hover {
     font-weight: lighter;
     padding-left: .001rem;
     border-radius: 2.2rem;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0;
 }
 
 #code_highlight{
