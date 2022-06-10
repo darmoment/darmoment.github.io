@@ -36,6 +36,7 @@ canvas {
 
 #home{
     width: 100%;
+    animation: shake 1s;
 }
 
 #about{
