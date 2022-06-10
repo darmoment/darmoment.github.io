@@ -410,3 +410,9 @@ i:hover {
 90% { transform: rotate(-45deg); }
 100% { transform: rotate(0deg); }
 }
+
+/* --- Bottom Nav --- */
+
+#bottom-nav{
+    position: absolute;
+}
