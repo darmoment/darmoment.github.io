@@ -129,7 +129,7 @@ button:hover {
 }
 
 #code{
-    position: relative;
+    position: absolute;
     top: 27%;
     left: 65.5%;
     color: #763FEC;
