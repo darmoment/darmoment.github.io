@@ -193,8 +193,8 @@ li #code_3-1{
 /* ---- Navbar ---- */
 
 #nav {
-    -webkit-backdrop-filter: blur(.5rem);
-    backdrop-filter: blur(.5rem);
+    -webkit-backdrop-filter: blur(.2rem);
+    backdrop-filter: blur(.2rem);
     background-color: rgba(255, 255, 255, 0.7);
     color: black;
     display: flex;
