@@ -406,7 +406,7 @@ i:hover {
   
 @keyframes shake {
 0% { transform: rotate(0deg); }
-30% { transform: rotate(90deg); }
-90% { transform: rotate(-90deg); }
+30% { transform: rotate(45deg); }
+90% { transform: rotate(-45deg); }
 100% { transform: rotate(0deg); }
 }
