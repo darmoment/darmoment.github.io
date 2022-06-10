@@ -441,4 +441,5 @@ p{
     position: fixed;
     bottom: 0;
     opacity: 0%;
+    z-index: 1;
 }
