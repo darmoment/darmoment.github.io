@@ -195,7 +195,7 @@ li #code_3-1{
 #nav {
     background-color: white;
     -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(1.5rem);
+    backdrop-filter: blur(10px);
     opacity: 70%;
     color: black;
     display: flex;
