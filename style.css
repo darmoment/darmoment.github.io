@@ -432,5 +432,5 @@ p{
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    margin: auto;
+    padding: auto;
 }
