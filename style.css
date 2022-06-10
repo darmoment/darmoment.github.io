@@ -427,5 +427,5 @@ p{
     margin: auto auto auto auto;
     width: 20rem;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
 }
