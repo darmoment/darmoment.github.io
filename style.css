@@ -124,6 +124,8 @@ button:hover {
 
 #code_box{
     position: absolute;
+    top: 27%;
+    left: 65.5%;
 }
 
 #code{
