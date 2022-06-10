@@ -430,4 +430,5 @@ p{
     width: 100%;
     flex-direction: column;
     align-content: center;
+    justify-content: center;
 }
