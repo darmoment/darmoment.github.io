@@ -426,7 +426,6 @@ p{
 #container2{
     display: flex;
     margin: auto auto auto auto;
-    background-color: #232323;
     width: 20rem;
     flex-direction: column;
     align-items: center;
