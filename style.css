@@ -430,3 +430,8 @@ p{
     flex-direction: column;
     align-items: center;
 }
+
+#glyhps{
+    display: flex;
+    justify-content: space-evenly;
+}
