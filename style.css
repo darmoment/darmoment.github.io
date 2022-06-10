@@ -99,6 +99,7 @@ button:hover {
     position: relative;
     left: -10%;
     top: 59%;
+    bottom: 100%;
     opacity: 65%;
 }
 
