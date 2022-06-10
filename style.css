@@ -47,7 +47,7 @@ canvas {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     margin: 0;
-    animation: appear 1s;
+    animation: appearAbout 1s;
 }
 
 #highlight{
@@ -130,7 +130,7 @@ button:hover {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     margin: 0;
-    animation: appear 1s;
+    animation: appearCode 1s;
 }
 
 #code{
@@ -449,7 +449,7 @@ p{
 
 /* ---- Animations ---- */
 
-@keyframes appear {
+@keyframes appearAbout {
     0% {
         opacity: 0;
         left: 0;
@@ -458,6 +458,18 @@ p{
       100% {
         opacity: 1;
         left: 6%;
+      }
+}
+
+@keyframes appearCode {
+    0% {
+        opacity: 0;
+        left: 100%;
+      }
+    
+      100% {
+        opacity: 1;
+        left: 65.5%;
       }
 }
 
