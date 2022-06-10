@@ -43,7 +43,7 @@ canvas2 {
 #home{
     width: 100%;
     display: flex;
-    justify-content: center;
+    align-content: center;
 }
 
 #about{
