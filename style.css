@@ -419,9 +419,6 @@ p{
     background-color: #E9E9E9;
     height: 10rem;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
 }
 
 #container{
