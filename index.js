@@ -218,7 +218,6 @@ particlesJS("particles-js2", {
 
 window.onscroll = function() {
   navFunction();
-  topbuttFunction();
 };
 
 var navbar = document.getElementById("nav");
@@ -229,17 +228,11 @@ function navFunction() {
   if (window.pageYOffset >= sticky.offsetHeight) {
     navbar.style.top = "0%";
     navbar.style.position = "fixed";
-  } else {
+    topbutt.style.opacity = "100%";
+  } 
+  else {
     navbar.style.top = (sticky.offsetHeight) + "px";
     navbar.style.position = "absolute";
-  }
-}
-
-function topbuttFunction() {
-  if(window.pageYOffset >= sticky.offsetHeight){
-    topbutt.style.opacity = "100%";
-  }
-  else{
     topbutt.style.opacity = "0%";
   }
 }
