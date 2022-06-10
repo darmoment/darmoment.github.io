@@ -47,7 +47,8 @@ canvas {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     margin: 0;
-    animation: shake 1s;
+    transition: 300ms;
+    opacity: 100%;
 }
 
 #highlight{
@@ -130,7 +131,6 @@ button:hover {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     margin: 0;
-    animation: shake 1s;
 }
 
 #code{
