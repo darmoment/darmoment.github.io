@@ -449,3 +449,10 @@ p{
     opacity: 0%;
     z-index: 1;
 }
+
+
+/* ---- Linking ---- */
+
+#anchortag{
+    padding: 3rem;
+}
