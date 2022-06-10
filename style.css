@@ -124,14 +124,15 @@ button:hover {
 
 #code_box{
     position: absolute;
-    top: 27%;
     left: 65.5%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0;
 }
 
 #code{
     position: relative;
-    top: 27%;
-    left: 65.5%;
     color: #763FEC;
     background-color: #E9E9E9;
     width: 27rem;
@@ -139,6 +140,7 @@ button:hover {
     font-weight: lighter;
     padding-left: .001rem;
     border-radius: 2.2rem;
+    
 }
 
 #code_highlight{
