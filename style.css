@@ -400,7 +400,7 @@ p{
     border-radius: 1rem;
 }
 
-i:hover {
+#contactsymbol:hover {
     animation: shake 1s;
 }
   
