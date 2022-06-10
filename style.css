@@ -440,8 +440,7 @@ p{
     color: #F9F7F7;
     position: fixed;
     bottom: 1rem;
+    right: 1 rem;
     opacity: 0%;
     z-index: 1;
-    display: flex;
-    justify-content: end;
 }
