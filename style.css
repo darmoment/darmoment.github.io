@@ -11,12 +11,6 @@ canvas {
     vertical-align: bottom;
 }
 
-canvas2 {
-    display: flex;
-    vertical-align: bottom;
-    z-index: 1000rem;
-}
-
 /* ---- particles.js container ---- */
 
 #particles-js2 {
