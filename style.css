@@ -36,7 +36,6 @@ canvas {
 
 #home{
     width: 100%;
-    animation: shake 1s;
 }
 
 #about{
@@ -48,6 +47,7 @@ canvas {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     margin: 0;
+    animation: shake 1s;
 }
 
 #highlight{
@@ -130,6 +130,7 @@ button:hover {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     margin: 0;
+    animation: shake 1s;
 }
 
 #code{
