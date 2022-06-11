@@ -359,9 +359,20 @@ h2{
     height: 30rem;
 }
 
+#descriptionn {
+    width: 43rem;
+    height: 58vh;
+}
+
 #projectpic{
     width: 38.5rem;
     height: 30rem;
+    object-fit:fill;
+}
+
+#projectpicc{
+    width: 43vw;
+    height: 58vh;
     object-fit:fill;
 }
 
