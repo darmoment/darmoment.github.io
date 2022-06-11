@@ -317,7 +317,6 @@ h2{
 
 #projectsec{
     position: absolute;
-    top: 200%;
 }
 
 #projectdiv{
@@ -395,7 +394,6 @@ p{
     flex-direction: column;
     align-items: center;
     color: white;
-    top: 422%;
 }
 
 #blocks{
@@ -433,7 +431,6 @@ p{
     width: 100%;
     display: flex;
     justify-content: center;
-    top: 460%;
 }
 
 #container2{
