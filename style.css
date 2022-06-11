@@ -365,6 +365,12 @@ h2{
     object-fit:fill;
 }
 
+#projectpicc{
+    width: 38.5vw;
+    height: 40vh;
+    object-fit:fill;
+}
+
 h5{
     margin: .2rem 0 0 0;
     font-size: 1.5rem;
