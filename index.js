@@ -238,6 +238,6 @@ function navFunction() {
 }
 
 
-document.getElementById("projectsec").style.top = (document.getElementById("particles-js2").scrollHeight + document.getElementById("skills").scrollHeight) + "px";
+document.getElementById("projectdiv").style.top = (document.getElementById("particles-js2").scrollHeight + document.getElementById("skills").scrollHeight) + "px";
 document.getElementById("contact").style.top = (document.getElementById("particles-js2").scrollHeight + document.getElementById("skills").scrollHeight + document.getElementById("projectsec").scrollHeight) + "px";
 document.getElementById("bottom-nav").style.top = (document.getElementById("particles-js2").scrollHeight + document.getElementById("skills").scrollHeight + document.getElementById("projectsec").scrollHeight + document.getElementById("contact").scrollHeight) + "px";
