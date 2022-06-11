@@ -321,6 +321,7 @@ h2{
 }
 
 #projectdiv{
+    margin-top: 20rem;
     position: absolute;
     height: 90rem;
     border-style: solid;
