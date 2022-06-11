@@ -347,9 +347,9 @@ h2{
     align-items: center;
     justify-content: space-evenly;
     background-color: #F9F7F7;
-    height: 34rem;
+    height: 544px;
     margin-bottom: 5rem;
-    width: 85rem;
+    width: 1360px;
     border-radius: 1rem;
     box-shadow: 0 .1rem .5rem 0 rgb(52, 52, 52);
 }
