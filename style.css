@@ -354,6 +354,19 @@ h2{
     box-shadow: 0 .1rem .5rem 0 rgb(52, 52, 52);
 }
 
+#projectt{
+    display: flex;
+    align-items: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F9F7F7;
+    height: 34rem;
+    margin-bottom: 5rem;
+    width: 95vw;
+    border-radius: 1rem;
+    box-shadow: 0 .1rem .5rem 0 rgb(52, 52, 52);
+}
+
 #description {
     width: 43rem;
     height: 30rem;
