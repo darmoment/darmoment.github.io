@@ -322,10 +322,6 @@ h2{
 
 #projectsec{
     position: absolute;
-}
-
-#wrapper{
-    position: absolute;
     padding: 5rem 0 7rem 0;
     width: 98.95vw;
     display: flex;

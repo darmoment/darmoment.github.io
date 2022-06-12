@@ -238,5 +238,5 @@ function navFunction() {
 }
 
 document.getElementById("wrapper").style.top = (document.getElementById("particles-js2").scrollHeight + document.getElementById("skills").scrollHeight) + "px";
-document.getElementById("contact").style.top = (document.getElementById("particles-js2").scrollHeight + document.getElementById("skills").scrollHeight + document.getElementById("projectsec").scrollHeight) + "px";
-document.getElementById("bottom-nav").style.top = (document.getElementById("particles-js2").scrollHeight + document.getElementById("skills").scrollHeight + document.getElementById("projectsec").scrollHeight + document.getElementById("contact").scrollHeight) + "px";
+document.getElementById("contact").style.top = (document.getElementById("particles-js2").scrollHeight + document.getElementById("skills").scrollHeight + document.getElementById("wrapper").scrollHeight) + "px";
+document.getElementById("bottom-nav").style.top = (document.getElementById("particles-js2").scrollHeight + document.getElementById("skills").scrollHeight + document.getElementById("wrapper").scrollHeight + document.getElementById("contact").scrollHeight) + "px";
