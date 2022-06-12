@@ -328,7 +328,7 @@ h2{
     flex-direction: column;
     align-items: center;
     background-color: rgba(250, 250, 250, .6);
-    clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
 }
 
 #projects{
