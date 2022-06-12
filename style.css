@@ -461,3 +461,10 @@ p{
     padding-top: 0rem;
     margin-top: 0rem;
 }
+
+#testt + span{
+    height: 50%;
+  width: 100%;
+  top: calc(40% + 5px); /* size of the angled area + buffer */
+  left: 5px; 
+}
