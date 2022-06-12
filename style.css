@@ -462,13 +462,6 @@ p{
     margin-top: 0rem;
 }
 
-#testt + #chicke{
-    position: absolute;
-  display: block;
-  padding: 10px;  
-  z-index: 1;
-    height: 50%;
-  width: 100%;
-  top: calc(40% + 5px); /* size of the angled area + buffer */
-  left: 5px; 
+#chicke{
+    margin: 2rem;
 }
