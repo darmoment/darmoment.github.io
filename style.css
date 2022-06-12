@@ -293,6 +293,8 @@ h2{
     flex-direction: row;
     align-items: center;
     width: 50rem;
+    height: 30rem;
+    background-color: #3F65EC;
     justify-content: center;
     flex-wrap: wrap;
 }
