@@ -456,14 +456,3 @@ p{
     90% { transform: rotate(-30deg); }
     100% { transform: rotate(0deg); }
 }
-
-#wrapper + #bottom-proj{
-    padding-top: 0rem;
-    margin-top: 0rem;
-}
-
-#chicke{
-    position: absolute;
-    top: 88rem;
-    z-index: 1;
-}
