@@ -462,7 +462,7 @@ p{
     margin-top: 0rem;
 }
 
-#testt + span{
+#testt + #chicke{
     position: absolute;
   display: block;
   padding: 10px;  
