@@ -465,4 +465,5 @@ p{
 #chicke{
     position: absolute;
     top: 90rem;
+    z-index: 1;
 }
