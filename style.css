@@ -36,9 +36,6 @@ canvas {
 
 #home{
     width: 100%;
-    left: 50%;
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
 }
 
 #about{
