@@ -534,20 +534,36 @@ and (orientation : portrait) {
         display: none;
     }
 
+    #homebutton{
+        margin: 2rem;
+    }
+
     /* ---- Projects ---- */
     #projectsec{
         width: 100%;
     }
-    #description{
-        width: 48vw;
-        height: 30vh;
+    #project{
+        display: flex;
+        flex-direction: column;
+    }
+    #description {
+        width: 43rem;
+        height: 58vh;
+        background-color: #3F65EC;
+    }
+    #projectpic{
+        width: 43vw;
+        height: 58vh;
+        object-fit:fill;
     }
     h5{
-        font-size: 1.3rem;
+        margin: .2rem 0 0 0;
+        font-size: 1.5rem;
     }
     p{
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
+    
 }
 
 @media screen and (max-width : 1120px) and (min-width : 1024px){
@@ -580,7 +596,7 @@ and (orientation : portrait) {
 }
 
 /* Desktops and laptops ----------- */
-@media screen and (max-width : 1270px) and (min-width : 1120px){
+@media screen and (max-width : 1349px) and (min-width : 1120px){
 
     /* ---- Home ---- */
     #about{
@@ -611,45 +627,9 @@ and (orientation : portrait) {
     
 }
 
-@media screen and (max-width : 1380px) and (min-width : 1271px){
-
-    /* ---- Home ---- */
-    #about{
-        transform: scale(3);
-        left: 4%;
-        top: 50%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-        margin: 0;
-    }
-
-    #code_box{
-        transform: scale(3);
-        right: 6%;
-        top: 50%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-        margin: 0;
-    }
-
-    /* ---- Project ---- */
-    #description{
-        width: 48vw;
-    }
-    h5{
-        font-size: 1.3rem;
-    }
-    p{
-        font-size: 1.1rem;
-    }
-    #projectsec{
-        width: 100%;
-    }
-    
-}
 
 /* Large screens ----------- */
-@media screen and (max-width : 1823px) and (min-width : 1381px) {
+@media screen and (max-width : 1823px) and (min-width : 1350px) {
    /* ---- Project ---- */
     #description{
         width: 48vw;
