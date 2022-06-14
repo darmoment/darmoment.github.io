@@ -257,14 +257,12 @@ a:hover::after {
     position: absolute;
     top: 100%;
     width: 100%;
-    height: 49.1rem;
     color: white;
     text-align: center;
     font-weight: bold;
     font-size: 1.3rem;
     letter-spacing: .07rem;
     padding-top: 7rem;
-    height: 50rem;
 }
 
 h2{
@@ -451,6 +449,13 @@ p{
 
 /* ---- Media ---- */
 
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
@@ -470,17 +475,10 @@ and (max-width : 320px) {
 /* Styles */
 }
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
-}
-
 /* iPads (landscape) ----------- */
 @media only screen 
 and (min-device-width : 768px) 
-and (max-device-width : 1023px) 
+and (max-device-width : 1024px) 
 and (orientation : landscape) {
     /* ---- Home ---- */
     #about{
@@ -490,9 +488,22 @@ and (orientation : landscape) {
         transform: translate(-50%, -50%);
         text-align: center;
     }
-
+    #aboutscale{
+        transform: scale(0.9);
+    }
     #code_box{
         display: none;
+    }
+
+    /* ---- NavBar ---- */
+    #nav{
+        height: 2.6rem;
+    }
+    #emblem{
+        font-size: 1.2rem;
+    }
+    #nav a{
+        font-size: 1rem;
     }
 
     /* ---- Projects ---- */
@@ -513,13 +524,17 @@ and (orientation : landscape) {
     p{
         font-size: 0.9rem;
     }
-    
+
+    /* ---- Contact ---- */
+    #block{
+        transform: scale(0.9);
+    }
 }
 
 /* iPads (portrait) ----------- */
 @media only screen 
 and (min-device-width : 768px) 
-and (max-device-width : 1023px) 
+and (max-device-width : 1024px) 
 and (orientation : portrait) {
     /* ---- Home ---- */
     #about{
@@ -536,6 +551,44 @@ and (orientation : portrait) {
 
     #homebutton{
         margin: 2rem;
+    }
+
+    /* ---- NavBar ---- */
+    #nav{
+        height: 2.6rem;
+    }
+    #emblem{
+        font-size: 1.2rem;
+    }
+    #nav a{
+        font-size: 1rem;
+        padding-right: 1rem;
+    }
+
+    /* ---- Skills ---- */
+    #container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .border-gradient {
+        border: #763FEC solid .16rem;
+        margin: 1.5rem;
+        padding: .4rem .5rem .4rem .5rem;
+        border-image-slice: 1;
+        width: 40rem;
+    }
+    .border-gradient-blue {
+        border-image-source: linear-gradient(to left, #763FEC, #3F65EC);
+    }
+    #toolbag{
+        width: 40rem;
+    }
+    #tools{
+        height: 6rem;
+        width: 6rem;
+        margin: 0rem 1rem 0rem 1rem;
     }
 
     /* ---- Projects ---- */
@@ -566,18 +619,22 @@ and (orientation : portrait) {
     
 }
 
-@media screen and (max-width : 1120px) and (min-width : 1024px){
+@media screen and (max-width : 1119px) and (min-width : 1025px){
     /* ---- Home ---- */
     #about{
-        transform: scale(0.7);
         left: -4%;
-        top: 10%;
     }
 
     #code_box{
-        transform: scale(0.7);
         right: 3%;
-        top: 10%;
+    }
+
+    #aboutscale{
+        transform: scale(0.7);
+    }
+
+    #codescale{
+        transform: scale(0.7);
     }
 
     /* ---- Projects ---- */
@@ -600,15 +657,19 @@ and (orientation : portrait) {
 
     /* ---- Home ---- */
     #about{
-        transform: scale(0.8);
         left: 0%;
-        top: 10%;
     }
 
     #code_box{
-        transform: scale(0.8);
         right: 3%;
-        top: 10%;
+    }
+
+    #aboutscale{
+        transform: scale(0.8);
+    }
+
+    #codescale{
+        transform: scale(0.8);
     }
 
     /* ---- Projects ---- */
@@ -645,15 +706,19 @@ and (orientation : portrait) {
 
     /* ---- Home ---- */
     #about{
-        transform: scale(1.3);
         left: 10%;
-        top: 25%;
     }
 
     #code_box{
-        transform: scale(1.3);
         right: 8%;
-        top: 25%;
+    }
+
+    #aboutscale{
+        transform: scale(1.3);
+    }
+
+    #codescale{
+        transform: scale(1.3);
     }
     
     /* ---- Navbar ---- */
@@ -712,11 +777,4 @@ and (orientation : portrait) {
         right: 2rem;
     }
 
-}
-
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
 }
