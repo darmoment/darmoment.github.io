@@ -349,7 +349,6 @@ h2{
 #description {
     width: 43rem;
     height: 58vh;
-    background-color: #3F65EC;
 }
 
 #projectpic{
@@ -453,27 +452,172 @@ p{
 @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
+    /* ---- Home ---- */
+    /* #about{
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    #aboutscale{
+        transform: scale(0.4);
+    }
+    #code_box{
+        display: none;
+    } */
 }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-/* Styles */
+    /* ---- Home ---- */
+    #about{
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    #aboutscale{
+        transform: scale(0.4);
+    }
+    #code_box{
+        display: none;
+    }
+    #homebutton{
+        margin: 2rem;
+    }
+
+    /* ---- NavBar ---- */
+    #nav{
+        display: flex;
+        justify-content: center;
+        height: 2rem;
+    }
+    #emblem{
+        display: none;
+    }
+    #navlinks{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: auto;
+    }
+    #nav a{
+        font-size: .7rem;
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    /* ---- Skills ---- */
+    #container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #courses{
+        margin-top: -2rem;
+        transform: scale(.9);
+        margin-left: -.5rem;
+    }
+    .border-gradient {
+        border: #763FEC solid .16rem;
+        border-image-slice: 1;
+        width: 18rem;
+    }
+    .border-gradient-blue {
+        border-image-source: linear-gradient(to left, #763FEC, #3F65EC);
+    }
+    #toolbag{
+        margin-top: 2rem;
+        transform: scale(0.9);
+        width: 100%;
+    }
+    #tool{
+        height: 5rem;
+        width: 5rem;
+    }
+
+     /* ---- Projects ---- */
+     #projectsec{
+        width: 100%;
+    }
+    #project{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    #description {
+        width: 90vw;
+        height: 20vh;
+        margin-bottom: 1rem;
+    }
+    #projectpic{
+        width: 90vw;
+        height: 30vh;
+        padding: 1rem 0rem 0rem 0rem;
+        object-fit:fill;
+    }
+    h5{
+        font-size: 0.9rem;
+        margin-bottom: -0.5rem;
+    }
+    p{
+        font-size: 0.7rem;
+    }
+
+    /* ---- Contact ---- */
+    #blocks{
+        display: flex;
+        flex-direction: column;
+    }
+    #block{
+        transform: scale(0.8);
+    }
+
 }
 
-/* Smartphones (landscape) ----------- */
+/* 
+/* Smartphones (landscape) ----------- 
 @media only screen 
 and (min-width : 321px) {
-/* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
+    /* ---- Home ---- 
+    #about{
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    #aboutscale{
+        transform: scale(0.4);
+    }
+    #code_box{
+        display: none;
+    }
+} */
+/* 
+/* Smartphones (portrait) ----------- 
 @media only screen 
 and (max-width : 320px) {
-/* Styles */
-}
+    /* ---- Home ---- 
+    #about{
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    #aboutscale{
+        transform: scale(0.4);
+        background-color: #3F65EC;
+    }
+    #code_box{
+        display: none;
+    }
+} */
 
 /* iPads (landscape) ----------- */
 @media only screen 
@@ -494,6 +638,9 @@ and (orientation : landscape) {
     #code_box{
         display: none;
     }
+    #homebutton{
+        margin: 2rem;
+    }
 
     /* ---- NavBar ---- */
     #nav{
@@ -510,9 +657,6 @@ and (orientation : landscape) {
     #description{
         width: 50vw;
         height: 53vh;
-    }
-    #homebutton{
-        margin: 2rem;
     }
     #projectpic{
         width: 40vw;
@@ -600,7 +744,6 @@ and (orientation : portrait) {
     #description {
         width: 90vw;
         height: 20vh;
-        background-color: #3F65EC;
         margin-bottom: 1rem;
     }
     #projectpic{
@@ -696,7 +839,7 @@ and (orientation : portrait) {
 
 /* Large screens ----------- */
 @media screen and (max-width : 1823px) and (min-width : 1350px) {
-   /* ---- Project ---- */
+    /* ---- Project ---- */
     #description{
         width: 48vw;
     }
