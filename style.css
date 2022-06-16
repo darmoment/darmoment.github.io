@@ -470,7 +470,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
-and (min-device-width : 320px) 
+and (min-device-width : 280px) 
 and (max-device-width : 480px) {
     /* ---- Home ---- */
     #about{
@@ -479,15 +479,34 @@ and (max-device-width : 480px) {
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         text-align: center;
+        width: 80vw;
     }
-    #aboutscale{
-        transform: scale(0.4);
+    h1{
+        font-size: 1.84rem;
+    }
+    h3{
+        font-size: .88rem;
+        margin-bottom: -0.5rem;
+    }
+    h4{
+        font-size: 0.72rem;
     }
     #code_box{
         display: none;
     }
+    #homebuttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
     #homebutton{
-        margin: 2rem;
+        margin: -0.2rem 0.8rem 0.8rem 0.8rem;
+        border: .1rem solid #763FEC;
+        font-size: 0.68rem;
+        padding-top: 0.32rem;
+        padding-bottom: 0.32rem;
+        width: 6rem;
+        cursor: pointer;
     }
 
     /* ---- NavBar ---- */
@@ -530,8 +549,12 @@ and (max-device-width : 480px) {
     .border-gradient-blue {
         border-image-source: linear-gradient(to left, #763FEC, #3F65EC);
     }
+    ul{
+        padding-left: 0;
+    }
     #toolbag{
         margin-top: 2rem;
+        margin-left: 0rem;
         transform: scale(0.9);
         width: 100%;
     }
@@ -541,7 +564,7 @@ and (max-device-width : 480px) {
     }
 
      /* ---- Projects ---- */
-     #projectsec{
+    #projectsec{
         width: 100%;
     }
     #project{
@@ -577,6 +600,13 @@ and (max-device-width : 480px) {
         transform: scale(0.8);
     }
 
+    /* ---- TopButton ---- */
+    #topbutton{
+        position: fixed;
+        transform: scale(0.6);
+        bottom: 0rem;
+        right: 0rem;
+    }
 }
 
 /* 
@@ -621,7 +651,7 @@ and (max-width : 320px) {
 
 /* iPads (landscape) ----------- */
 @media only screen 
-and (min-device-width : 768px) 
+and (min-device-width : 700px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
     /* ---- Home ---- */
@@ -677,7 +707,7 @@ and (orientation : landscape) {
 
 /* iPads (portrait) ----------- */
 @media only screen 
-and (min-device-width : 768px) 
+and (min-device-width : 700px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
     /* ---- Home ---- */
