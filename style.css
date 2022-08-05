@@ -590,8 +590,7 @@ and (max-device-width : 480px) {
     p{
         font-size: 0.7rem;
     }
-    .learnMoreButton{
-        color: black;
+    #learnMoreButton{
         width: 5rem;
         bottom: 0rem;
     }
