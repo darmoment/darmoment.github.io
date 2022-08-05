@@ -591,8 +591,7 @@ and (max-device-width : 480px) {
         font-size: 0.7rem;
     }
     .learnMoreButton{
-        display: flex;
-        align-items: bottom;
+        bottom: 0rem;
     }
 
     /* ---- Contact ---- */
