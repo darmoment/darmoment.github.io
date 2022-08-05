@@ -606,13 +606,14 @@ and (max-device-width : 480px) {
     #learnMoreButton{
         padding-top: .2rem;
         font-size: .6rem;
-        height: 2rem;
+        height: 1rem;
         width: 5rem;
     }
     
     #projectTool{
         height: 1rem;
         width: 1rem;
+        margin-bottom: .5rem;
     }
 
     /* ---- Contact ---- */
