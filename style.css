@@ -848,20 +848,20 @@ and (orientation : portrait) {
 
     /* ---- Home ---- */
     #about{
-        left: 0%;
+        left: 10%;
     }
 
     #code_box{
-        right: 3%;
+        right: 8%;
     }
 
     #aboutscale{
         transform: scale(0.8);
     }
 
-    #codescale{
+    /* #codescale{
         transform: scale(0.8);
-    }
+    } */
 
     /* ---- Projects ---- */
     #description{
