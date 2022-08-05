@@ -880,6 +880,11 @@ and (orientation : portrait) {
         transform: scale(0.8);
     }
 
+    /* ---- Skills ---- */
+    #skills{
+        margin-bottom: 1rem;
+    }
+
     /* ---- Projects ---- */
     #description{
         width: 48vw;
