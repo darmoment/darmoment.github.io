@@ -591,8 +591,7 @@ and (max-device-width : 480px) {
         font-size: 0.7rem;
     }
     #learnMoreButton{
-        width: 5rem;
-        bottom: 0rem;
+        color: #232323;
     }
 
     /* ---- Contact ---- */
