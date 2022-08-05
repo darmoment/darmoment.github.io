@@ -24,6 +24,7 @@ canvas {
     width: 100%;
     height: 100%;
     z-index: 1;
+    position: absolute;
 }
 
 #site {
@@ -253,8 +254,13 @@ a:hover::after {
 
 /* ---- Skills ---- */
 
-#skills{
+#websiteBody{
     position: absolute;
+    top: 100%;
+    width: 100%;
+}
+
+#skills{
     top: 100%;
     width: 100%;
     color: white;
@@ -318,7 +324,6 @@ h2{
 /* ---- Projects ---- */
 
 #projectsec{
-    position: absolute;
     padding: 5rem 0 7rem 0;
     width: 98.95vw;
     display: flex;
@@ -382,7 +387,6 @@ p{
 /* --- Contact ---- */
 
 #contact{
-    position: absolute;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -419,7 +423,6 @@ p{
 /* ---- Bottom Nav ---- */
 
 #bottom-nav{
-    position: absolute;
     margin-top: 12rem;
     background-color: #E9E9E9;
     height: 10rem;
