@@ -737,7 +737,6 @@ and (orientation : landscape) {
         font-size: 0.9rem;
     }
     #learnMoreButton{
-        padding-top: .2rem;
         font-size: .8rem;
         height: 2rem;
         width: 7rem;
