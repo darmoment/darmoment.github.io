@@ -719,9 +719,12 @@ and (orientation : landscape) {
     }
 
     /* ---- Projects ---- */
+    #project{
+        height: 50vh;
+    }
     #description{
         width: 50vw;
-        height: 53vh;
+        height: 38vh;
     }
     #projectpic{
         width: 40vw;
