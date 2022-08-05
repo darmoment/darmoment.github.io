@@ -741,7 +741,6 @@ and (orientation : landscape) {
         font-size: .8rem;
         height: 2rem;
         width: 7rem;
-        border-width: .15rem;
     }
 
     /* ---- Contact ---- */
