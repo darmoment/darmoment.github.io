@@ -770,6 +770,9 @@ and (orientation : portrait) {
     }
 
     /* ---- Skills ---- */
+    #skills{
+        margin-bottom: 1rem;
+    }
     #container{
         display: flex;
         flex-direction: column;
@@ -878,11 +881,6 @@ and (orientation : portrait) {
 
     #codescale{
         transform: scale(0.8);
-    }
-
-    /* ---- Skills ---- */
-    #skills{
-        margin-bottom: 1rem;
     }
 
     /* ---- Projects ---- */
