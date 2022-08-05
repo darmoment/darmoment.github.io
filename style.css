@@ -367,10 +367,8 @@ p{
 }
 
 #learnMoreButton{
-    color: #F9F7F7;
-    background-color: #763FEC;
     padding-top: .2rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 300;
     height: 2.5rem;
     width: 10rem;
