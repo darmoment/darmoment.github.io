@@ -614,7 +614,7 @@ and (max-device-width : 480px) {
         height: 1rem;
         width: 1rem;
         margin-top: .7rem;
-        margin-bottom: -1.3rem;
+        margin-bottom: -.7rem;
     }
 
     /* ---- Contact ---- */
