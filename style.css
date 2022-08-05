@@ -369,6 +369,9 @@ p{
 #learnMoreButton{
     color: #F9F7F7;
     background-color: #763FEC;
+    font-size: 2rem;
+    height: 4rem;
+    width: 10rem;
 }
 
 /* --- Contact ---- */
