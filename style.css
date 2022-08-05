@@ -366,6 +366,11 @@ p{
     font-size: 1.3rem;
 }
 
+#learnMoreButton{
+    color: #F9F7F7;
+    background-color: #763FEC;
+}
+
 /* --- Contact ---- */
 
 #contact{
@@ -589,9 +594,6 @@ and (max-device-width : 480px) {
     }
     p{
         font-size: 0.7rem;
-    }
-    #learnMoreButton{
-        margin-top: 100rem;
     }
 
     /* ---- Contact ---- */
