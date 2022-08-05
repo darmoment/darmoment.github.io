@@ -254,8 +254,8 @@ a:hover::after {
 
 /* ---- Skills ---- */
 
-#bodyWeb{
-    position: absolute;
+#websiteBody{
+    /* position: absolute; */
     top: 100%;
     width: 100%;
 }
