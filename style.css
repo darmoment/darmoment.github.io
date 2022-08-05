@@ -603,6 +603,9 @@ and (max-device-width : 480px) {
     p{
         font-size: 0.7rem;
     }
+    #learnMoreButton{
+        transform: scale(0.9);
+    }
 
     /* ---- Contact ---- */
     #blocks{
@@ -848,20 +851,20 @@ and (orientation : portrait) {
 
     /* ---- Home ---- */
     #about{
-        left: 10%;
+        left: 0%;
     }
 
     #code_box{
-        right: 8%;
+        right: 3%;
     }
 
     #aboutscale{
         transform: scale(0.8);
     }
 
-    /* #codescale{
+    #codescale{
         transform: scale(0.8);
-    } */
+    }
 
     /* ---- Projects ---- */
     #description{
