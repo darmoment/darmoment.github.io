@@ -590,6 +590,10 @@ and (max-device-width : 480px) {
     p{
         font-size: 0.7rem;
     }
+    .learnMoreButton{
+        display: flex;
+        align-items: bottom;
+    }
 
     /* ---- Contact ---- */
     #blocks{
