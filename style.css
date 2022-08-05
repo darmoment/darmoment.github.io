@@ -736,6 +736,13 @@ and (orientation : landscape) {
     p{
         font-size: 0.9rem;
     }
+    #learnMoreButton{
+        padding-top: .2rem;
+        font-size: .4rem;
+        height: .8rem;
+        width: 4rem;
+        border-width: .1rem;
+    }
 
     /* ---- Contact ---- */
     #block{
