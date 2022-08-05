@@ -392,7 +392,8 @@ p{
     flex-direction: column;
     align-items: center;
     color: white;
-    margin-top: -.015rem;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
 }
 
 #blocks{
@@ -423,7 +424,6 @@ p{
 /* ---- Bottom Nav ---- */
 
 #bottom-nav{
-    margin-top: 12rem;
     background-color: #E9E9E9;
     height: 10rem;
     width: 100%;
@@ -462,27 +462,7 @@ p{
     100% { transform: rotate(0deg); }
 }
 
-/* ---- Media ---- */
-
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-    /* ---- Home ---- */
-    /* #about{
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-    #aboutscale{
-        transform: scale(0.4);
-    }
-    #code_box{
-        display: none;
-    } */
-}
+/* ---- MEDIA ---- */
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
@@ -499,6 +479,10 @@ and (max-device-width : 480px) {
     }
     h1{
         font-size: 1.84rem;
+    }
+    h2{
+        font-size: 2.5rem;
+
     }
     h3{
         font-size: .88rem;
@@ -547,10 +531,14 @@ and (max-device-width : 480px) {
     }
 
     /* ---- Skills ---- */
+    #skills{
+        padding-top: 5rem;
+    }
     #container{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 4rem;
     }
     #courses{
         margin-top: -2rem;
@@ -638,46 +626,6 @@ and (max-device-width : 480px) {
         right: 0rem;
     }
 }
-
-/* 
-/* Smartphones (landscape) ----------- 
-@media only screen 
-and (min-width : 321px) {
-    /* ---- Home ---- 
-    #about{
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-    #aboutscale{
-        transform: scale(0.4);
-    }
-    #code_box{
-        display: none;
-    }
-} */
-/* 
-/* Smartphones (portrait) ----------- 
-@media only screen 
-and (max-width : 320px) {
-    /* ---- Home ---- 
-    #about{
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-    #aboutscale{
-        transform: scale(0.4);
-        background-color: #3F65EC;
-    }
-    #code_box{
-        display: none;
-    }
-} */
 
 /* iPads (landscape) ----------- */
 @media only screen 
