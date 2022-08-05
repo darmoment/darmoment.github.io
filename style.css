@@ -613,6 +613,7 @@ and (max-device-width : 480px) {
     #projectTool{
         height: 1rem;
         width: 1rem;
+        margin-top: -.2rem;
     }
 
     /* ---- Contact ---- */
